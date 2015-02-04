@@ -16,7 +16,7 @@ h2 {
   font-size: 20px;
 }
 
-input, button {
+input, button, a {
   outline: none;
 }
 

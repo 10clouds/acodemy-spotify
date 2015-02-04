@@ -12,9 +12,7 @@ angular.module('acodemy-app.directives.play-button', [])
 
   return {
     restrict: 'E',
-    template:
-      '<i class="{{ player.state.icon }}" ng-click="player.state.next()"></i>' +
-      '<audio ng-src="{{ player.src }}" preload="none"></audio>',
+    templateUrl: 'directives/play-button/play-button.html',
     scope: {
       src: '@audioSrc'
     },
