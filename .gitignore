@@ -1,0 +1,8 @@
+# Created by https://www.gitignore.io
+
+build
+src/bower
+node_modules
+
+*.sublime-workspace
+*.sublime-project

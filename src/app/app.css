@@ -1,0 +1,104 @@
+body {
+  font-family: sans;
+  color: #333;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+input, button {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #84bd00;
+}
+
+section {
+  display: block;
+  padding: 15px;
+}
+
+section header {
+  display: block;
+  margin-bottom: 15px;
+}
+
+section h1,
+section h2 {
+  display: inline;
+  font-weight: normal;
+}
+
+section h1 {
+  margin-right: 10px;
+}
+
+section h2 {
+
+}
+
+.tiles-section .tile {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.table-section table {
+  width: 100%;
+}
+
+.table-section tr {
+  border: 3px solid #ccc;
+  border-width: 0 0 3px 0;
+}
+
+
+.table-section td {
+  text-align: center;
+  vertical-align: middle;
+  height: 35px;
+}
+
+.table-section td:first-child {
+  text-align: left;
+}
+
+.table-section td:last-child {
+  text-align: right;
+}
+
+.thumb-s, .thumb-m, .thumb-l {
+  background: #ccc;
+  background-size: cover;
+}
+
+.thumb-s {
+  width: 64px;
+  height: 64px;
+}
+
+.thumb-m {
+  width: 128px;
+  height: 128px;
+}
+
+.thumb-l {
+  width: 300px;
+  height: 300px;
+}

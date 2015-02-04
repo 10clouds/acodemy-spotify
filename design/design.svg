@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1440"
+   height="900"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="design.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3863">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="23.395781"
+         id="feGaussianBlur3865" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="814.86964"
+     inkscape:cy="464.41501"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4564"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1054"
+     inkscape:window-x="1366"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="landing"
+     style="display:inline">
+    <g
+       style="display:inline"
+       id="g4564"
+       transform="matrix(0.87750194,0,0,0.87750194,-391.18594,323.61537)">
+      <rect
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:#b3b3b3;stroke-width:1.13959860999999996;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4566"
+         width="537.31287"
+         height="64.970192"
+         x="995.80621"
+         y="157.73422"
+         ry="32.485096" />
+      <path
+         sodipodi:type="arc"
+         style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path4568"
+         sodipodi:cx="1324.8151"
+         sodipodi:cy="60.058159"
+         sodipodi:rx="19.697975"
+         sodipodi:ry="19.697975"
+         d="m 1344.513,60.058159 a 19.697975,19.697975 0 1 1 -39.3959,0 19.697975,19.697975 0 1 1 39.3959,0 z"
+         transform="matrix(1.2074386,0,0,1.2183425,-98.164254,116.86709)" />
+      <rect
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4570"
+         width="29.045235"
+         height="8.2203493"
+         x="1185.7583"
+         y="-936.83588"
+         transform="matrix(0.70392122,0.71027806,-0.70392122,0.71027806,0,0)" />
+      <rect
+         y="-1204.3911"
+         x="-947.24823"
+         height="8.2203493"
+         width="29.045235"
+         id="rect4572"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         transform="matrix(-0.70392122,0.71027806,-0.70392122,-0.71027806,0,0)" />
+      <text
+         xml:space="preserve"
+         style="font-size:40.0841217px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
+         x="1031.7374"
+         y="200.13196"
+         id="text4574"
+         sodipodi:linespacing="125%"
+         transform="scale(0.99551505,1.0045052)"><tspan
+           style="font-size:33.40343475px"
+           sodipodi:role="line"
+           id="tspan4576"
+           x="1031.7374"
+           y="200.13196">search...</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="765.72345"
+       y="391.60818"
+       id="text4560"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4562"
+         x="765.72345"
+         y="391.60818"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans">browser</tspan></text>
+    <image
+       y="331.97375"
+       x="482.13596"
+       id="image4614"
+       xlink:href="file:///home/mskrajnowski/projects/acodemy-twitter/design/spotify-logo-primary-horizontal-light-background-rgb.png"
+       height="82.267258"
+       width="272.3779" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="search"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="29.999998"
+       y="145.8999"
+       id="text3892"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3894"
+         x="29.999998"
+         y="145.8999">Albums</tspan></text>
+    <rect
+       y="178.08977"
+       x="30.304583"
+       height="128"
+       width="128"
+       id="rect3904"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3906"
+       width="128"
+       height="128"
+       x="164.5903"
+       y="178.08977" />
+    <rect
+       y="178.08977"
+       x="300.3046"
+       height="128"
+       width="128"
+       id="rect3908"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3910"
+       width="128"
+       height="128"
+       x="434.5903"
+       y="178.08977" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="195.71428"
+       y="146.25706"
+       id="text3940"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3942"
+         x="195.71428"
+         y="146.25706">23 found</tspan></text>
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3988"
+       width="128"
+       height="128"
+       x="567.70575"
+       y="178.08977" />
+    <rect
+       y="178.08977"
+       x="701.99146"
+       height="128"
+       width="128"
+       id="rect3990"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3992"
+       width="128"
+       height="128"
+       x="837.70575"
+       y="178.08977" />
+    <rect
+       y="178.08977"
+       x="971.99146"
+       height="128"
+       width="128"
+       id="rect3994"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       y="178.08977"
+       x="1107.1272"
+       height="128"
+       width="128"
+       id="rect4004"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4006"
+       width="128"
+       height="128"
+       x="1241.413"
+       y="178.08977" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4012"
+       y="376.21469"
+       x="29.999998"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="376.21469"
+         x="29.999998"
+         id="tspan4014"
+         sodipodi:role="line">Artists</tspan></text>
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4016"
+       width="128"
+       height="128"
+       x="30.304583"
+       y="408.40454" />
+    <rect
+       y="408.40454"
+       x="164.5903"
+       height="128"
+       width="128"
+       id="rect4018"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4020"
+       width="128"
+       height="128"
+       x="300.3046"
+       y="408.40454" />
+    <rect
+       y="408.40454"
+       x="434.5903"
+       height="128"
+       width="128"
+       id="rect4022"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4024"
+       y="376.57184"
+       x="167.14285"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="376.57184"
+         x="167.14285"
+         id="tspan4026"
+         sodipodi:role="line">7 found</tspan></text>
+    <rect
+       y="408.40454"
+       x="567.70575"
+       height="128"
+       width="128"
+       id="rect4028"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4030"
+       width="128"
+       height="128"
+       x="701.99146"
+       y="408.40454" />
+    <rect
+       y="408.40454"
+       x="837.70575"
+       height="128"
+       width="128"
+       id="rect4032"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="29.999998"
+       y="606.48889"
+       id="text4040"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4042"
+         x="29.999998"
+         y="606.48889">Tracks</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="169.76721"
+       y="606.84601"
+       id="text4052"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4054"
+         x="169.76721"
+         y="606.84601">5 found</tspan></text>
+    <rect
+       y="673.00726"
+       x="28.287283"
+       height="3"
+       width="1359.9341"
+       id="rect4314-3"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,-265.37994,410.64406)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4316-8"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <rect
+       y="648.79059"
+       x="36.73864"
+       height="12.383"
+       width="12.383"
+       id="rect4318-4"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4320-4"
+       y="660.94684"
+       x="90.583023"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="660.94684"
+         x="90.583023"
+         id="tspan4322-4"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="439.14731"
+       y="660.94684"
+       id="text4324-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4326-7"
+         x="439.14731"
+         y="660.94684">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4328-8"
+       y="660.94684"
+       x="1353.7369"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="660.94684"
+         x="1353.7369"
+         id="tspan4330-6"
+         sodipodi:role="line">3:21</tspan></text>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4332-3"
+       width="1359.9341"
+       height="3"
+       x="28.287283"
+       y="716.44867" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4334-3"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,-265.37994,454.0855)" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4336-3"
+       d="m 39.445241,692.232 9.60508,6.1915 -9.60508,6.1915 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="90.583023"
+       y="704.38831"
+       id="text4338-7"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4340-3"
+         x="90.583023"
+         y="704.38831">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4342-7"
+       y="704.38831"
+       x="439.14731"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="704.38831"
+         x="439.14731"
+         id="tspan4344-8"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1353.7369"
+       y="704.38831"
+       id="text4346-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4348-8"
+         x="1353.7369"
+         y="704.38831">3:21</tspan></text>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4350-7"
+       width="1359.9341"
+       height="3"
+       x="28.287283"
+       y="762.16296" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4352-4"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,-265.37994,499.7998)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="90.583023"
+       y="750.10254"
+       id="text4354-2"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4356-5"
+         x="90.583023"
+         y="750.10254">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4358-8"
+       y="750.10254"
+       x="439.14731"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="750.10254"
+         x="439.14731"
+         id="tspan4360-3"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1353.7369"
+       y="750.10254"
+       id="text4362-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4364-7"
+         x="1353.7369"
+         y="750.10254">3:21</tspan></text>
+    <rect
+       y="807.87726"
+       x="28.287283"
+       height="3"
+       width="1359.9341"
+       id="rect4366-7"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,-265.37994,545.51408)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4368-0"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4370-0"
+       y="795.81683"
+       x="90.583023"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="795.81683"
+         x="90.583023"
+         id="tspan4372-8"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="439.14731"
+       y="795.81683"
+       id="text4374-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4376-5"
+         x="439.14731"
+         y="795.81683">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4378-6"
+       y="795.81683"
+       x="1353.7369"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="795.81683"
+         x="1353.7369"
+         id="tspan4380-1"
+         sodipodi:role="line">3:21</tspan></text>
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 39.445241,737.94626 9.60508,6.1915 -9.60508,6.1915 z"
+       id="path4382-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4384-0"
+       d="m 39.445241,783.66055 9.60508,6.1915 -9.60508,6.1915 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4542-9"
+       y="660.94684"
+       x="848.03845"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="660.94684"
+         x="848.03845"
+         id="tspan4544-5"
+         sodipodi:role="line">Darren Korb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="848.03845"
+       y="704.38831"
+       id="text4546-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4548-4"
+         x="848.03845"
+         y="704.38831">Darren Korb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="848.03845"
+       y="750.10254"
+       id="text4550-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4552-9"
+         x="848.03845"
+         y="750.10254">Darren Korb</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4554-9"
+       y="795.81683"
+       x="848.03845"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="795.81683"
+         x="848.03845"
+         id="tspan4556-7"
+         sodipodi:role="line">Darren Korb</tspan></text>
+    <rect
+       y="856.85986"
+       x="28.287283"
+       height="3"
+       width="1359.9341"
+       id="rect4678-4"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,-265.37994,594.49671)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4680-9"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 39.445241,832.64321 9.60508,6.19151 -9.60508,6.1915 z"
+       id="path4682-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4684-2"
+       y="844.7995"
+       x="90.583023"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="844.7995"
+         x="90.583023"
+         id="tspan4686-6"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="439.14731"
+       y="844.7995"
+       id="text4688-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4690-2"
+         x="439.14731"
+         y="844.7995">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4692-8"
+       y="844.7995"
+       x="1353.7369"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="844.7995"
+         x="1353.7369"
+         id="tspan4694-8"
+         sodipodi:role="line">3:21</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4744-4"
+       y="844.7995"
+       x="848.03845"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="844.7995"
+         x="848.03845"
+         id="tspan4746-5"
+         sodipodi:role="line">Darren Korb</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="album"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <rect
+       ry="0"
+       y="116.12164"
+       x="30.312498"
+       height="300"
+       width="300"
+       id="rect4276"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4278"
+       y="222.3871"
+       x="355.59409"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:36px"
+         y="222.3871"
+         x="355.59409"
+         id="tspan4280"
+         sodipodi:role="line">Tracks</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4282"
+       y="143.47319"
+       x="355.71429"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:36px"
+         y="143.47319"
+         x="355.71429"
+         id="tspan4284"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4286"
+       y="143.69975"
+       x="914.63641"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:20px;fill:#333333"
+         y="143.69975"
+         x="914.63641"
+         id="tspan4288"
+         sodipodi:role="line">2014</tspan></text>
+    <g
+       style="display:inline"
+       transform="translate(184.84681,-39.024153)"
+       id="g4290">
+      <rect
+         style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4292"
+         width="63.713203"
+         height="30.714285"
+         x="799.37189"
+         y="160.79059"
+         ry="15.357142"
+         rx="15.357141" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="811.56329"
+         y="182.11258"
+         id="text4294"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4296"
+           x="811.56329"
+           y="182.11258"
+           style="font-size:16px">indie</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(184.84681,-39.024153)"
+       id="g4298">
+      <rect
+         rx="15.357143"
+         ry="15.357142"
+         y="160.79059"
+         x="868.30048"
+         height="30.714285"
+         width="53.968822"
+         id="rect4300"
+         style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4302"
+         y="182.11258"
+         x="880.49188"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="182.11258"
+           x="880.49188"
+           id="tspan4304"
+           sodipodi:role="line">pop</tspan></text>
+    </g>
+    <g
+       style="display:inline"
+       transform="translate(184.84681,-39.024153)"
+       id="g4306">
+      <rect
+         style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4308"
+         width="56.927494"
+         height="30.714285"
+         x="927.94336"
+         y="160.79059"
+         ry="15.357142"
+         rx="15.357143" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="940.49194"
+         y="182.11258"
+         id="text4310"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4312"
+           x="940.49194"
+           y="182.11258"
+           style="font-size:16px">rock</tspan></text>
+    </g>
+    <rect
+       y="279.39322"
+       x="358.4816"
+       height="3"
+       width="1041.7361"
+       id="rect4314"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,17.0301)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4316"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <rect
+       y="255.17653"
+       x="366.93295"
+       height="12.383"
+       width="12.383"
+       id="rect4318"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4320"
+       y="267.33279"
+       x="436.49161"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="267.33279"
+         x="436.49161"
+         id="tspan4322"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="696.6106"
+       y="267.33279"
+       id="text4324"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4326"
+         x="696.6106"
+         y="267.33279">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4328"
+       y="267.33279"
+       x="1365.7333"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="267.33279"
+         x="1365.7333"
+         id="tspan4330"
+         sodipodi:role="line">3:21</tspan></text>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4332"
+       width="1041.7361"
+       height="3"
+       x="358.4816"
+       y="322.83463" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4334"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,60.47154)" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4336"
+       d="m 369.63955,298.61804 9.60508,6.1915 -9.60508,6.1915 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="436.49161"
+       y="310.77426"
+       id="text4338"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4340"
+         x="436.49161"
+         y="310.77426">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4342"
+       y="310.77426"
+       x="696.6106"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="310.77426"
+         x="696.6106"
+         id="tspan4344"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1365.7333"
+       y="310.77426"
+       id="text4346"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4348"
+         x="1365.7333"
+         y="310.77426">3:21</tspan></text>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4350"
+       width="1041.7361"
+       height="3"
+       x="358.4816"
+       y="368.54892" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4352"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,106.18584)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="436.49161"
+       y="356.48849"
+       id="text4354"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4356"
+         x="436.49161"
+         y="356.48849">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4358"
+       y="356.48849"
+       x="696.6106"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="356.48849"
+         x="696.6106"
+         id="tspan4360"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1365.7333"
+       y="356.48849"
+       id="text4362"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4364"
+         x="1365.7333"
+         y="356.48849">3:21</tspan></text>
+    <rect
+       y="414.26321"
+       x="358.4816"
+       height="3"
+       width="1041.7361"
+       id="rect4366"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,151.90012)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4368"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4370"
+       y="402.20279"
+       x="436.49161"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="402.20279"
+         x="436.49161"
+         id="tspan4372"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="696.6106"
+       y="402.20279"
+       id="text4374"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4376"
+         x="696.6106"
+         y="402.20279">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4378"
+       y="402.20279"
+       x="1365.7333"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="402.20279"
+         x="1365.7333"
+         id="tspan4380"
+         sodipodi:role="line">3:21</tspan></text>
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 369.63955,344.3323 9.60508,6.1915 -9.60508,6.1915 z"
+       id="path4382"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4384"
+       d="m 369.63955,390.04659 9.60508,6.1915 -9.60508,6.1915 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="410.66986"
+       y="267.33279"
+       id="text4508"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4510"
+         x="410.66986"
+         y="267.33279">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4512"
+       y="311.00082"
+       x="410.66986"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="311.00082"
+         x="410.66986"
+         id="tspan4514"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="410.66986"
+       y="356.71506"
+       id="text4516"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4518"
+         x="410.66986"
+         y="356.71506">3</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4520"
+       y="402.42935"
+       x="410.66986"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="402.42935"
+         x="410.66986"
+         id="tspan4522"
+         sodipodi:role="line">4</tspan></text>
+    <g
+       id="g4673"
+       transform="translate(-9.7500706,-4.0406102)">
+      <rect
+         ry="0"
+         y="449.35083"
+         x="40.062569"
+         height="32"
+         width="32"
+         id="rect4524"
+         style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4526"
+         y="472.4548"
+         x="81.784462"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:20px;fill:#333333"
+           y="472.4548"
+           x="81.784462"
+           id="tspan4528"
+           sodipodi:role="line">Darren Korb</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4542"
+       y="267.33279"
+       x="1105.5018"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="267.33279"
+         x="1105.5018"
+         id="tspan4544"
+         sodipodi:role="line">Darren Korb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1105.5018"
+       y="310.77426"
+       id="text4546"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4548"
+         x="1105.5018"
+         y="310.77426">Darren Korb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1105.5018"
+       y="356.48849"
+       id="text4550"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4552"
+         x="1105.5018"
+         y="356.48849">Darren Korb</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4554"
+       y="402.20279"
+       x="1105.5018"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="402.20279"
+         x="1105.5018"
+         id="tspan4556"
+         sodipodi:role="line">Darren Korb</tspan></text>
+    <rect
+       y="463.24582"
+       x="358.4816"
+       height="3"
+       width="1041.7361"
+       id="rect4678"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,200.88275)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4680"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 369.63955,439.02925 9.60508,6.1915 -9.60508,6.1915 z"
+       id="path4682"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4684"
+       y="451.18546"
+       x="436.49161"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="451.18546"
+         x="436.49161"
+         id="tspan4686"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="696.6106"
+       y="451.18546"
+       id="text4688"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4690"
+         x="696.6106"
+         y="451.18546">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4692"
+       y="451.18546"
+       x="1365.7333"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="451.18546"
+         x="1365.7333"
+         id="tspan4694"
+         sodipodi:role="line">3:21</tspan></text>
+    <rect
+       y="508.96011"
+       x="358.4816"
+       height="3"
+       width="1041.7361"
+       id="rect4696"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,246.59705)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4698"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4700"
+       y="496.89969"
+       x="436.49161"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="496.89969"
+         x="436.49161"
+         id="tspan4702"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="696.6106"
+       y="496.89969"
+       id="text4704"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4706"
+         x="696.6106"
+         y="496.89969">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4708"
+       y="496.89969"
+       x="1365.7333"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="496.89969"
+         x="1365.7333"
+         id="tspan4710"
+         sodipodi:role="line">3:21</tspan></text>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4712"
+       width="1041.7361"
+       height="3"
+       x="358.4816"
+       y="554.67444" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4714"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,292.31133)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="436.49161"
+       y="542.61401"
+       id="text4716"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4718"
+         x="436.49161"
+         y="542.61401">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4720"
+       y="542.61401"
+       x="696.6106"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="542.61401"
+         x="696.6106"
+         id="tspan4722"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1365.7333"
+       y="542.61401"
+       id="text4724"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4726"
+         x="1365.7333"
+         y="542.61401">3:21</tspan></text>
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4728"
+       d="m 369.63955,484.74351 9.60508,6.1915 -9.60508,6.1915 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 369.63955,530.4578 9.60508,6.1915 -9.60508,6.1915 z"
+       id="path4730"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="410.66986"
+       y="451.41202"
+       id="text4732"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4734"
+         x="410.66986"
+         y="451.41202">2</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4736"
+       y="497.12625"
+       x="410.66986"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="497.12625"
+         x="410.66986"
+         id="tspan4738"
+         sodipodi:role="line">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="410.66986"
+       y="542.84058"
+       id="text4740"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4742"
+         x="410.66986"
+         y="542.84058">4</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4744"
+       y="451.18546"
+       x="1105.5018"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="451.18546"
+         x="1105.5018"
+         id="tspan4746"
+         sodipodi:role="line">Darren Korb</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4748"
+       y="496.89969"
+       x="1105.5018"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="496.89969"
+         x="1105.5018"
+         id="tspan4750"
+         sodipodi:role="line">Darren Korb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1105.5018"
+       y="542.61401"
+       id="text4752"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4754"
+         x="1105.5018"
+         y="542.61401">Darren Korb</tspan></text>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4756"
+       width="1041.7361"
+       height="3"
+       x="358.4816"
+       y="598.96008" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4758"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,336.59704)" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4760"
+       d="m 369.63955,574.74354 9.60508,6.1915 -9.60508,6.1915 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="436.49161"
+       y="586.89972"
+       id="text4762"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4764"
+         x="436.49161"
+         y="586.89972">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4766"
+       y="586.89972"
+       x="696.6106"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="586.89972"
+         x="696.6106"
+         id="tspan4768"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1365.7333"
+       y="586.89972"
+       id="text4770"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4772"
+         x="1365.7333"
+         y="586.89972">3:21</tspan></text>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4774"
+       width="1041.7361"
+       height="3"
+       x="358.4816"
+       y="644.67438" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4776"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,382.31134)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="436.49161"
+       y="632.61395"
+       id="text4778"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4780"
+         x="436.49161"
+         y="632.61395">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4782"
+       y="632.61395"
+       x="696.6106"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="632.61395"
+         x="696.6106"
+         id="tspan4784"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1365.7333"
+       y="632.61395"
+       id="text4786"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4788"
+         x="1365.7333"
+         y="632.61395">3:21</tspan></text>
+    <rect
+       y="690.38873"
+       x="358.4816"
+       height="3"
+       width="1041.7361"
+       id="rect4790"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,64.814369,428.02562)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4792"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4794"
+       y="678.32831"
+       x="436.49161"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="678.32831"
+         x="436.49161"
+         id="tspan4796"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="696.6106"
+       y="678.32831"
+       id="text4798"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4800"
+         x="696.6106"
+         y="678.32831">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4802"
+       y="678.32831"
+       x="1365.7333"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="678.32831"
+         x="1365.7333"
+         id="tspan4804"
+         sodipodi:role="line">3:21</tspan></text>
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 369.63955,620.4578 9.60508,6.1915 -9.60508,6.1915 z"
+       id="path4806"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4808"
+       d="m 369.63955,666.17209 9.60508,6.1915 -9.60508,6.1915 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4810"
+       y="587.12628"
+       x="410.66986"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="587.12628"
+         x="410.66986"
+         id="tspan4812"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="410.66986"
+       y="632.84052"
+       id="text4814"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4816"
+         x="410.66986"
+         y="632.84052">3</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4818"
+       y="678.55487"
+       x="410.66986"
+       style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="678.55487"
+         x="410.66986"
+         id="tspan4820"
+         sodipodi:role="line">4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1105.5018"
+       y="586.89972"
+       id="text4822"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4824"
+         x="1105.5018"
+         y="586.89972">Darren Korb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       x="1105.5018"
+       y="632.61395"
+       id="text4826"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4828"
+         x="1105.5018"
+         y="632.61395">Darren Korb</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4830"
+       y="678.32831"
+       x="1105.5018"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="678.32831"
+         x="1105.5018"
+         id="tspan4832"
+         sodipodi:role="line">Darren Korb</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="artist"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4076"
+       width="300"
+       height="300"
+       x="30.312498"
+       y="116.12164"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="355.46411"
+       y="222.28557"
+       id="text4078"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4080"
+         x="355.46411"
+         y="222.28557"
+         style="font-size:36px">Top tracks</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="355.71429"
+       y="145.28178"
+       id="text4082"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4084"
+         x="355.71429"
+         y="145.28178"
+         style="font-size:36px">Darren Korb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="589.48413"
+       y="145.50835"
+       id="text4086"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4088"
+         x="589.48413"
+         y="145.50835"
+         style="font-size:20px;fill:#333333">121 followers</tspan></text>
+    <g
+       id="g4108"
+       transform="translate(-57.537543,-37.335608)">
+      <rect
+         rx="15.357141"
+         ry="15.357142"
+         y="160.79059"
+         x="799.37189"
+         height="30.714285"
+         width="63.713203"
+         id="rect4090"
+         style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4092"
+         y="182.11258"
+         x="811.56329"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="182.11258"
+           x="811.56329"
+           id="tspan4094"
+           sodipodi:role="line">indie</tspan></text>
+    </g>
+    <g
+       id="g4113"
+       transform="translate(-57.537543,-37.335608)">
+      <rect
+         style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4096"
+         width="53.968822"
+         height="30.714285"
+         x="868.30048"
+         y="160.79059"
+         ry="15.357142"
+         rx="15.357143" />
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         x="880.49188"
+         y="182.11258"
+         id="text4098"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4100"
+           x="880.49188"
+           y="182.11258"
+           style="font-size:16px">pop</tspan></text>
+    </g>
+    <g
+       id="g4118"
+       transform="translate(-57.537543,-37.335608)">
+      <rect
+         rx="15.357143"
+         ry="15.357142"
+         y="160.79059"
+         x="927.94336"
+         height="30.714285"
+         width="56.927494"
+         id="rect4102"
+         style="color:#000000;fill:#808080;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4104"
+         y="182.11258"
+         x="940.49194"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-size:16px"
+           y="182.11258"
+           x="940.49194"
+           id="tspan4106"
+           sodipodi:role="line">rock</tspan></text>
+    </g>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4123"
+       width="1041.9642"
+       height="3"
+       x="358.35162"
+       y="279.29166" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4125"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,64.684386,16.928574)" />
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4127"
+       width="12.383"
+       height="12.383"
+       x="366.80298"
+       y="255.07501" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="409.27826"
+       y="267.23126"
+       id="text4129"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4131"
+         x="409.27826"
+         y="267.23126">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4133"
+       y="267.23126"
+       x="643.56396"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="267.23126"
+         x="643.56396"
+         id="tspan4135"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1365.2959"
+       y="267.23126"
+       id="text4137"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4139"
+         x="1365.2959"
+         y="267.23126">3:21</tspan></text>
+    <rect
+       y="322.73309"
+       x="358.35162"
+       height="3"
+       width="1041.9642"
+       id="rect4141"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,64.684386,60.370018)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4143"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 369.50956,298.5165 9.60508,6.1915 -9.60508,6.1915 z"
+       id="rect4145"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4147"
+       y="310.6727"
+       x="409.27826"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="310.6727"
+         x="409.27826"
+         id="tspan4149"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="643.56396"
+       y="310.6727"
+       id="text4151"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4153"
+         x="643.56396"
+         y="310.6727">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4155"
+       y="310.6727"
+       x="1365.2959"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="310.6727"
+         x="1365.2959"
+         id="tspan4157"
+         sodipodi:role="line">3:21</tspan></text>
+    <rect
+       y="368.44736"
+       x="358.35162"
+       height="3"
+       width="1041.9642"
+       id="rect4159"
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="matrix(0.8292683,0,0,0.8292683,64.684386,106.08431)"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       sodipodi:ry="14.642858"
+       sodipodi:rx="14.642858"
+       sodipodi:cy="294.64285"
+       sodipodi:cx="371.78571"
+       id="path4161"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4165"
+       y="356.38696"
+       x="409.27826"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="356.38696"
+         x="409.27826"
+         id="tspan4167"
+         sodipodi:role="line">Old Friends</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="643.56396"
+       y="356.38696"
+       id="text4169"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4171"
+         x="643.56396"
+         y="356.38696">Transistor Original Soundtrack</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4173"
+       y="356.38696"
+       x="1365.2959"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="356.38696"
+         x="1365.2959"
+         id="tspan4175"
+         sodipodi:role="line">3:21</tspan></text>
+    <rect
+       style="color:#000000;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4177"
+       width="1041.9642"
+       height="3"
+       x="358.35162"
+       y="414.16165" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path4179"
+       sodipodi:cx="371.78571"
+       sodipodi:cy="294.64285"
+       sodipodi:rx="14.642858"
+       sodipodi:ry="14.642858"
+       d="m 386.42856,294.64285 a 14.642858,14.642858 0 1 1 -29.28571,0 14.642858,14.642858 0 1 1 29.28571,0 z"
+       transform="matrix(0.8292683,0,0,0.8292683,64.684386,151.79858)" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="409.27826"
+       y="402.10126"
+       id="text4183"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4185"
+         x="409.27826"
+         y="402.10126">Old Friends</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4187"
+       y="402.10126"
+       x="643.56396"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="402.10126"
+         x="643.56396"
+         id="tspan4189"
+         sodipodi:role="line">Transistor Original Soundtrack</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="1365.2959"
+       y="402.10126"
+       id="text4191"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4193"
+         x="1365.2959"
+         y="402.10126">3:21</tspan></text>
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4198"
+       d="m 369.50956,344.23076 9.60508,6.1915 -9.60508,6.1915 z"
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 369.50956,389.94505 9.60508,6.1915 -9.60508,6.1915 z"
+       id="path4200"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4202"
+       y="485.33087"
+       x="29.999998"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="485.33087"
+         x="29.999998"
+         id="tspan4204"
+         sodipodi:role="line"
+         style="font-size:36px">Albums</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="29.999998"
+       y="702.5434"
+       id="text4206"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4208"
+         x="29.999998"
+         y="702.5434"
+         style="font-size:36px">Similar artists</tspan></text>
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4016-7"
+       width="128"
+       height="128"
+       x="29.799543"
+       y="504.45453" />
+    <rect
+       y="504.45453"
+       x="164.08525"
+       height="128"
+       width="128"
+       id="rect4018-0"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4020-0"
+       width="128"
+       height="128"
+       x="299.79953"
+       y="504.45453" />
+    <rect
+       y="504.45453"
+       x="434.08524"
+       height="128"
+       width="128"
+       id="rect4022-7"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       y="504.45453"
+       x="567.20074"
+       height="128"
+       width="128"
+       id="rect4028-3"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4030-7"
+       width="128"
+       height="128"
+       x="701.48645"
+       y="504.45453" />
+    <rect
+       y="504.45453"
+       x="837.20074"
+       height="128"
+       width="128"
+       id="rect4032-6"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       y="729.74829"
+       x="29.799543"
+       height="128"
+       width="128"
+       id="rect4246"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4248"
+       width="128"
+       height="128"
+       x="164.08525"
+       y="729.74829" />
+    <rect
+       y="729.74829"
+       x="299.79953"
+       height="128"
+       width="128"
+       id="rect4250"
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4252"
+       width="128"
+       height="128"
+       x="434.08524"
+       y="729.74829" />
+    <rect
+       style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4254"
+       width="128"
+       height="128"
+       x="567.20074"
+       y="729.74829" />
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       x="180.23787"
+       y="485.33087"
+       id="text4260"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4262"
+         x="180.23787"
+         y="485.33087"
+         style="font-size:20px">7 found</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4264"
+       y="702.8266"
+       x="294.38513"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:20px"
+         y="702.8266"
+         x="294.38513"
+         id="tspan4266"
+         sodipodi:role="line">5 found</tspan></text>
+  </g>
+  <g
+     inkscape:label="header"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-152.36218)"
+     style="display:inline">
+    <rect
+       style="color:#000000;fill:#333333;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985"
+       width="1440"
+       height="75"
+       x="0"
+       y="152.36218" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="188.65373"
+       y="201.29076"
+       id="text2987"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="188.65373"
+         y="201.29076"
+         id="tspan3984"
+         style="font-size:36px">browser</tspan></text>
+    <g
+       id="g3018">
+      <rect
+         rx="19.362921"
+         ry="19.362921"
+         y="170.8564"
+         x="1102.8823"
+         height="38.725842"
+         width="323.16049"
+         id="rect2997"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         transform="matrix(0.72619974,0,0,0.72619974,444.92667,146.49732)"
+         d="m 1344.513,60.058159 a 19.697975,19.697975 0 1 1 -39.3959,0 19.697975,19.697975 0 1 1 39.3959,0 z"
+         sodipodi:ry="19.697975"
+         sodipodi:rx="19.697975"
+         sodipodi:cy="60.058159"
+         sodipodi:cx="1324.8151"
+         id="path3001"
+         style="color:#000000;fill:#999999;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <rect
+         transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)"
+         y="-862.93591"
+         x="1120.6383"
+         height="4.9217591"
+         width="17.390217"
+         id="rect3003"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="matrix(-0.70710678,0.70710678,-0.70710678,-0.70710678,0,0)"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3005"
+         width="17.390217"
+         height="4.9217591"
+         x="-869.1701"
+         y="-1131.7943" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3007"
+         y="196.66522"
+         x="1121.7097"
+         style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="196.66522"
+           x="1121.7097"
+           id="tspan3009"
+           sodipodi:role="line"
+           style="font-size:20px">search...</tspan></text>
+    </g>
+    <image
+       y="163.94185"
+       x="11.213926"
+       id="image4665"
+       xlink:href="file:///home/mskrajnowski/projects/acodemy-twitter/design/spotify-logo-primary-horizontal-dark-background-rgb.png"
+       height="51.500153"
+       width="170.51138" />
+    <rect
+       style="color:#000000;fill:#84bd00;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect4670"
+       width="1440"
+       height="10"
+       x="0"
+       y="227.16908" />
+  </g>
+</svg>

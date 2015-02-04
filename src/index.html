@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Acodemy spotify</title>
+
+  <!-- dependencies -->
+  <link rel="stylesheet" href="bower/normalize.css/normalize.css">
+  <link rel="stylesheet" href="bower/font-awesome/css/font-awesome.min.css">
+
+  <!-- app styling -->
+  <link rel="stylesheet" href="app/app.css">
+  <link rel="stylesheet" href="navbar/navbar.css">
+</head>
+<body ng-app="acodemy-app">
+  <ng-include src="'navbar/navbar.html'"
+              ng-controller="NavbarController as navbar">
+  </ng-include>
+
+  <ng-view></ng-view>
+
+  <!-- dependencies -->
+  <script src="bower/angular/angular.js"></script>
+  <script src="bower/angular-animate/angular-animate.js"></script>
+  <script src="bower/angular-cookies/angular-cookies.js"></script>
+  <script src="bower/angular-route/angular-route.js"></script>
+  <script src="bower/angular-sanitize/angular-sanitize.js"></script>
+  <script src="bower/angular-touch/angular-touch.js"></script>
+  <script src="bower/webcomponentsjs/webcomponents.js"></script>
+  <script src="bower/polymer/polymer.js"></script>
+
+  <!-- app logic -->
+  <script src="apis/spotify.js"></script>
+  <script src="utils/debounce.js"></script>
+  <script src="utils/duration-filter.js"></script>
+  <script src="directives/play-button/play-button.js"></script>
+  <script src="navbar/navbar.js"></script>
+
+  <script src="routes/not-found/not-found.js"></script>
+  <script src="routes/search/search.js"></script>
+
+  <script src="app/app.js"></script>
+</body>
+</html>
