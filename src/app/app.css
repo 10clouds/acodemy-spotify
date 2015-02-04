@@ -25,7 +25,7 @@ a {
   color: #333;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #84bd00;
 }
 
@@ -86,6 +86,13 @@ section h2 {
 .thumb-s, .thumb-m, .thumb-l {
   background: #ccc;
   background-size: cover;
+}
+
+a.thumb-s:hover, a.thumb-s:focus,
+a.thumb-m:hover, a.thumb-m:focus,
+a.thumb-l:hover, a.thumb-l:focus {
+  outline: 4px solid #84bd00;
+  outline-offset: -4px;
 }
 
 .thumb-s {

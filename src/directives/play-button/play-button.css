@@ -22,7 +22,8 @@ play-button .icon-background {
   padding: 5px 0;
 }
 
-play-button button:hover .icon-background {
+play-button button:hover .icon-background,
+play-button button:focus .icon-background {
   background: #84bd00;
 }
 
