@@ -6,7 +6,7 @@ angular.module('acodemy-app.apis.spotify', ['ngSanitize'])
   whitelist.push('https://p.scdn.co/mp3-preview/**');
   $sceDelegateProvider.resourceUrlWhitelist(whitelist);
 })
-.service('SpotifyApi', function($http) {
+.service('SpotifyApi', function ($http) {
   var api = this;
   var baseUrl = 'https://api.spotify.com/v1';
 
