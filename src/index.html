@@ -15,7 +15,11 @@
 <body ng-app="acodemy-app">
   <nav class="app-navbar"
        ng-controller="NavbarController as navbar"
-       ng-class="{'minimized': !navbar.isSearch() || navbar.searchQuery }">
+       ng-class="{
+         initialized: navbar.initialized,
+         minimized: !navbar.isSearch() || navbar.searchQuery
+       }"
+       ng-cloak>
 
     <a class="app-logo"
        href="#/search"

@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module('acodemy-app.navbar', ['acodemy-app.routes.search'])
 .controller('NavbarController', function($scope, $location) {
   var vm = this;
@@ -15,6 +13,10 @@ angular.module('acodemy-app.navbar', ['acodemy-app.routes.search'])
       }
     }
   );
+
+  $scope.$on('$routeChangeSuccess', function() {
+    vm.initialized = true;
+  });
 
   vm.isSearch = function() {
     return $location.path() === '/search';
