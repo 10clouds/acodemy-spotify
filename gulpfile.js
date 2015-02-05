@@ -1,13 +1,14 @@
-var gulp = require('gulp');
-var connect = require('gulp-connect');
+var angularFilesort = require('gulp-angular-filesort');
+var bowerFiles = require('main-bower-files');
 var coffee = require('gulp-coffee');
+var concat = require('gulp-concat');
+var connect = require('gulp-connect');
+var es = require('event-stream');
+var gulp = require('gulp');
 var gutil = require('gulp-util');
 var inject = require('gulp-inject');
-var bowerFiles = require('main-bower-files');
-var concat = require('gulp-concat');
-var es = require('event-stream');
-var angularFilesort = require('gulp-angular-filesort');
 var ngAnnotate = require('gulp-ng-annotate');
+var templateCache = require('gulp-angular-templatecache');
 var uglify = require('gulp-uglify');
 
 gulp.task('connect', function() {
@@ -19,26 +20,28 @@ gulp.task('connect', function() {
 });
 
 gulp.task('files', function () {
-  gulp.src('./src/**')
+  return gulp
+    .src('./src/**')
     .pipe(connect.reload());
 });
 
 gulp.task('watch', function () {
-  gulp.watch(
-    ['./src/**'],
-    ['coffee', 'files']
-  );
+  return gulp
+    .watch(
+      ['./src/**'],
+      ['coffee', 'files']
+    );
 });
 
 gulp.task('coffee', function() {
-  gulp
+  return gulp
     .src('./src/**/*.coffee')
     .pipe(coffee({bare: true}).on('error', gutil.log))
     .pipe(gulp.dest('./src/tmp/coffee/'))
 });
 
 gulp.task('index', function () {
-  gulp
+  return gulp
     .src('./src/index.html')
     .pipe(inject(gulp.src(bowerFiles(), {read: false}),{
         name: 'bower',
@@ -59,60 +62,74 @@ gulp.task('index', function () {
 });
 
 
-
-gulp.task('ngAnnotate', function () {
-  gulp.src('src/app.js')
-    .pipe(ngAnnotate())
-    .pipe(gulp.dest('dist'));
-});
-
 gulp.task('vendor', function() {
-  gulp.src(bowerFiles({
+  return gulp
+    .src(bowerFiles({
       filter: /\.js$/i
     }))
-    .pipe(uglify())
     .pipe(concat('vendor.js'))
-    .pipe(gulp.dest('./dist/'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js/'))
 });
 
-gulp.task('scripts', function() {
-  gulp.src(['./src/**/*.js', '!./src/bower/**'])
-    .pipe(uglify())
+gulp.task('scripts', ['templateCache'], function() {
+  return gulp
+    .src(['./src/**/*.js', '!./src/bower/**', './dist/templates.js'])
     .pipe(concat('scripts.js'))
-    .pipe(gulp.dest('./dist/'))
+    .pipe(ngAnnotate())
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js/'))
+});
+
+gulp.task('copyFonts', function() {
+  return gulp
+    .src('./src/bower/font-awesome/fonts/**')
+    .pipe(gulp.dest('./dist/fonts'))
 });
 
 gulp.task('styles', function() {
-  gulp.src(['./src/**/*.css', '!./src/bower/**'])
+  return gulp
+    .src(['./src/**/*.css', '!./src/bower/**'])
     .pipe(concat('styles.css'))
-    .pipe(gulp.dest('./dist/'))
+    .pipe(gulp.dest('./dist/css/'))
 });
 
 gulp.task('vendorStyles', function() {
-  gulp.src(bowerFiles({
+  return gulp
+    .src(bowerFiles({
       filter: /\.css$/i
     }))
     .pipe(concat('bower.css'))
-    .pipe(gulp.dest('./dist/'))
+    .pipe(gulp.dest('./dist/css/'))
 });
 
-gulp.task('mergeCompiled', function() {
-  gulp.src('./src/index.html')
+gulp.task('templateCache', function () {
+  return gulp
+    .src(['./src/**/*.html', '!./src/index.html', '!./src/bower/**'])
+    .pipe(templateCache({
+      module: 'acodemy-app'
+    }))
+    .pipe(gulp.dest('./dist/'));
+});
+
+gulp.task('mergeCompiled', ['styles', 'vendor', 'vendorStyles', 'copyFonts', 'scripts'], function() {
+  return gulp
+    .src('./src/index.html')
     .pipe(inject(gulp.src(
-      './dist/bower.css', {read: false}),
+      './dist/css/bower.css', {read: false}),
       {name: 'bower', ignorePath: 'dist', addRootSlash: false}
     ))
     .pipe(inject(gulp.src(
-      './dist/styles.css', {read: false}),
+      './dist/css/styles.css', {read: false}),
       {ignorePath: 'dist', addRootSlash: false}
     ))
     .pipe(inject(gulp.src(
-      './dist/vendor.js', {read: false}),
-      {name: 'bower', ignorePath: 'dist', addRootSlash: false}
+      './dist/js/vendor.js', {read: false}),
+      {name: 'bower', ignorePath: 'dist',  addRootSlash: false}
     ))
     .pipe(inject(gulp.src(
-      './dist/scripts.js', {read: false}),
-      {ignorePath: 'dist', addRootSlash: false}
+      './dist/js/scripts.js', {read: false}),
+      {ignorePath: 'dist',  addRootSlash: false}
     ))
     .pipe(gulp.dest('./dist/'))
 });
@@ -120,4 +137,4 @@ gulp.task('mergeCompiled', function() {
 
 
 gulp.task('default', ['connect', 'index', 'watch']);
-gulp.task('build', ['ngAnnotate', 'styles', 'vendor', 'vendorStyles', 'scripts', 'mergeCompiled']);
+gulp.task('build', ['mergeCompiled']);

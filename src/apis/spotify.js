@@ -1,4 +1,4 @@
-angular.module('acodemy-app.apis.spotify', [])
+angular.module('acodemy-app.apis.spotify', ['ngSanitize'])
 .config(function($sceDelegateProvider) {
   // add the track preview urls to the whitelist, so they can be used
   // in <audio> elements
