@@ -31,18 +31,30 @@ gulp.task('watch', function () {
 });
 
 gulp.task('coffee', function() {
-  gulp.src('./src/**/*.coffee')
+  gulp
+    .src('./src/**/*.coffee')
     .pipe(coffee({bare: true}).on('error', gutil.log))
     .pipe(gulp.dest('./src/tmp/coffee/'))
 });
 
 gulp.task('index', function () {
-  gulp.src('./src/index.html')
-    .pipe(inject(gulp.src(bowerFiles(), {read: false}), {name: 'bower'}))
+  gulp
+    .src('./src/index.html')
+    .pipe(inject(gulp.src(bowerFiles(), {read: false}),{
+        name: 'bower',
+        ignorePath: 'src',
+        addRootSlash: false
+    }))
     .pipe(inject(es.merge(
-      gulp.src(['./src/**/*.js', './src/**/*.css', '!./src/bower/**'], {read: false})
+      gulp
+        .src(['./src/**/*.js', './src/**/*.css', '!./src/bower/**'], {read: false})
         .pipe(angularFilesort())
-    )))
+      ),
+      {
+        ignorePath: 'src',
+        addRootSlash: false
+      }
+    ))
     .pipe(gulp.dest('./src/'));
 });
 
@@ -86,10 +98,22 @@ gulp.task('vendorStyles', function() {
 
 gulp.task('mergeCompiled', function() {
   gulp.src('./src/index.html')
-    .pipe(inject(gulp.src('./dist/bower.css', {read: false}), {name: 'bower'}))
-    .pipe(inject(gulp.src('./dist/styles.css', {read: false})))
-    .pipe(inject(gulp.src('./dist/vendor.js', {read: false}), {name: 'bower'}))
-    .pipe(inject(gulp.src('./dist/scripts.js', {read: false})))
+    .pipe(inject(gulp.src(
+      './dist/bower.css', {read: false}),
+      {name: 'bower', ignorePath: 'dist', addRootSlash: false}
+    ))
+    .pipe(inject(gulp.src(
+      './dist/styles.css', {read: false}),
+      {ignorePath: 'dist', addRootSlash: false}
+    ))
+    .pipe(inject(gulp.src(
+      './dist/vendor.js', {read: false}),
+      {name: 'bower', ignorePath: 'dist', addRootSlash: false}
+    ))
+    .pipe(inject(gulp.src(
+      './dist/scripts.js', {read: false}),
+      {ignorePath: 'dist', addRootSlash: false}
+    ))
     .pipe(gulp.dest('./dist/'))
 });
 
