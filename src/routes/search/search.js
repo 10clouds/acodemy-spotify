@@ -17,22 +17,22 @@ angular.module('acodemy-app.routes.search', [
 .controller('SearchPageController', function(
   $scope, $location, $q, $debounce, SpotifyApi
 ) {
-  var ctrl = this;
+  var vm = this;
 
-  ctrl.searchQuery = $location.search().q;
-  ctrl.albums = {};
-  ctrl.artists = {};
-  ctrl.tracks = {};
+  vm.searchQuery = $location.search().q;
+  vm.albums = {};
+  vm.artists = {};
+  vm.tracks = {};
 
   $scope.$watch(
     function() { return $location.search().q; },
     $debounce(function(searchQuery) {
-      ctrl.searchQuery = searchQuery;
+      vm.searchQuery = searchQuery;
 
       if (!searchQuery) {
-        ctrl.albums = {};
-        ctrl.artists = {};
-        ctrl.tracks = {};
+        vm.albums = {};
+        vm.artists = {};
+        vm.tracks = {};
         return;
       }
 
@@ -41,9 +41,9 @@ angular.module('acodemy-app.routes.search', [
         ['album', 'artist', 'track'],
         {params: {limit: 10}}
       ).then(function(data) {
-        ctrl.albums = data.albums;
-        ctrl.artists = data.artists;
-        ctrl.tracks = data.tracks;
+        vm.albums = data.albums;
+        vm.artists = data.artists;
+        vm.tracks = data.tracks;
       });
     }, 250)
   );

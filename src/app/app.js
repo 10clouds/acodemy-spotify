@@ -1,7 +1,6 @@
 angular.module('acodemy-app', [
   // dependencies
   'ngAnimate',
-  'ngCookies',
   'ngRoute',
   'ngSanitize',
   'ngTouch',
@@ -10,8 +9,10 @@ angular.module('acodemy-app', [
   'acodemy-app.navbar',
 
   // app routes
+  'acodemy-app.routes.notFound',
   'acodemy-app.routes.search',
-  'acodemy-app.routes.notFound'
+  'acodemy-app.routes.album',
+  'acodemy-app.routes.artist'
 ])
 .config(function($locationProvider) {
   $locationProvider.html5Mode(false);

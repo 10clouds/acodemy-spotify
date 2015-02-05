@@ -1,8 +1,8 @@
 angular.module('acodemy-app.apis.spotify', [])
 .config(function($sceDelegateProvider) {
+  // add the track preview urls to the whitelist, so they can be used
+  // in <audio> elements
   var whitelist = $sceDelegateProvider.resourceUrlWhitelist();
-  console.log(whitelist);
-
   whitelist.push('https://p.scdn.co/mp3-preview/**');
   $sceDelegateProvider.resourceUrlWhitelist(whitelist);
 })
@@ -82,5 +82,37 @@ angular.module('acodemy-app.apis.spotify', [])
 
   api.getTracks = function(ids, config) {
     return getEntities('tracks', ids, config);
+  };
+
+  api.getAlbumTracks = function(albumId, config) {
+    return api.get('/albums/' + albumId + '/tracks', config)
+    .then(function(response) {
+      return response.data;
+    });
+  };
+
+  api.getArtistsAlbums = function(artistId, config) {
+    return api.get('/artists/' + artistId + '/albums', config)
+    .then(function(response) {
+      return response.data;
+    });
+  };
+
+  api.getArtistsTopTracks = function(artistId, countryCode, config) {
+    countryCode = countryCode || 'US';
+
+    config = mergeConfigs(config, {params: {country: countryCode}});
+
+    return api.get('/artists/' + artistId + '/top-tracks', config)
+    .then(function(response) {
+      return response.data.tracks;
+    });
+  };
+
+  api.getRelatedArtists = function(artistId, config) {
+    return api.get('/artists/' + artistId + '/related-artists', config)
+    .then(function(response) {
+      return response.data.artists;
+    });
   };
 });

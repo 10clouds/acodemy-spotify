@@ -16,6 +16,10 @@ angular.module('acodemy-app.navbar', ['acodemy-app.routes.search'])
     }
   );
 
+  vm.isSearch = function() {
+    return $location.path() === '/search';
+  };
+
   vm.clearSearch = function() {
     vm.searchQuery = '';
   };

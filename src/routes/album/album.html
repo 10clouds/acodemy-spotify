@@ -1,0 +1,43 @@
+<header class="page-header">
+  <aside>
+    <div class="thumb-l"
+         ng-style="{'background-image': 'url(' + page.album.images[0].url + ')'}">
+    </div>
+
+    <ul class="thumbs-list">
+      <li ng-repeat="artist in page.artists">
+        <a href="#/artist/{{ artist.id }}">
+          <div class="thumb-s"
+               ng-style="{'background-image': 'url(' + page.album.images[2].url + ')'}">
+          </div>
+          <p>{{ artist.name }}</p>
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <section>
+    <header>
+      <h1>{{ page.album.name }}</h1>
+      <h2>{{ page.album.release_date | date:'yyyy' }}</h2>
+    </header>
+
+    <section class="table-section">
+      <header><h1>Tracks</h1></header>
+      <table class="tracks-table">
+        <tr ng-repeat="track in page.album.tracks.items">
+          <td><play-button audio-src="{{ track.preview_url }}"></play-button></td>
+          <td><a ng-href="#/album/{{ page.album.id }}/{{ track.id }}">{{ track.name }}</a></td>
+          <td><a ng-href="#/album/{{ page.album.id }}">{{ page.album.name }}</a></td>
+          <td>
+            <a ng-repeat="artist in track.artists"
+               ng-href="#/artist/{{ artist.id }}">
+              {{ artist.name }}<span ng-if="!$last">,</span>
+            </a>
+          </td>
+          <td>{{ track.duration_ms | duration }}</td>
+        </tr>
+      </table>
+    </section>
+  </section>
+</header>

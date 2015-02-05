@@ -1,7 +1,13 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: sans;
   color: #333;
   font-size: 16px;
+  height: 100%;
+  min-height: 100%;
 }
 
 * {
@@ -10,10 +16,12 @@ body {
 
 h1 {
   font-size: 36px;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 20px;
+  font-weight: normal;
 }
 
 input, button, a {
@@ -34,23 +42,27 @@ section {
   padding: 15px;
 }
 
-section header {
+section > header {
   display: block;
   margin-bottom: 15px;
 }
 
-section h1,
-section h2 {
+section > header > h1,
+section > header > h2 {
   display: inline;
   font-weight: normal;
 }
 
-section h1 {
+section > header > h1 {
   margin-right: 10px;
 }
 
-section h2 {
+section > header > h2 {
 
+}
+
+section section {
+  padding: 15px 0;
 }
 
 .tiles-section .tile {
@@ -75,7 +87,8 @@ section h2 {
   height: 35px;
 }
 
-.table-section td:first-child {
+.table-section td:first-child,
+.table-section td:nth-child(2) {
   text-align: left;
 }
 
@@ -88,6 +101,9 @@ section h2 {
   background-size: cover;
 }
 
+a:hover .thumb-s, a:focus .thumb-s,
+a:hover .thumb-m, a:focus .thumb-m,
+a:hover .thumb-l, a:focus .thumb-l,
 a.thumb-s:hover, a.thumb-s:focus,
 a.thumb-m:hover, a.thumb-m:focus,
 a.thumb-l:hover, a.thumb-l:focus {
@@ -108,4 +124,41 @@ a.thumb-l:hover, a.thumb-l:focus {
 .thumb-l {
   width: 300px;
   height: 300px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-header > aside {
+  padding: 15px 0 15px 15px;
+  order: 1;
+  flex: 0 0 auto;
+}
+
+.page-header > section {
+  margin-top: -6px;
+  order: 2;
+  flex: 1 0 auto;
+}
+
+.thumbs-list {
+  list-style: none;
+  padding: 0;
+}
+
+.thumbs-list > li {
+  margin-bottom: 15px;
+}
+
+.thumbs-list .thumb-s {
+  float: left;
+  margin-right: 15px;
+}
+
+.thumbs-list p {
+  height: 64px;
+  padding: 20px 15px;
+  font-size: 20px;
 }

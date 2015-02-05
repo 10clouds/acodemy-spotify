@@ -17,16 +17,7 @@
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="design.svg">
   <defs
-     id="defs4">
-    <filter
-       inkscape:collect="always"
-       id="filter3863">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="23.395781"
-         id="feGaussianBlur3865" />
-    </filter>
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -35,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="814.86964"
-     inkscape:cy="464.41501"
+     inkscape:cx="935.0778"
+     inkscape:cy="487.04243"
      inkscape:document-units="px"
-     inkscape:current-layer="g4564"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -55,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -84,7 +75,7 @@
          sodipodi:cy="60.058159"
          sodipodi:rx="19.697975"
          sodipodi:ry="19.697975"
-         d="m 1344.513,60.058159 a 19.697975,19.697975 0 1 1 -39.3959,0 19.697975,19.697975 0 1 1 39.3959,0 z"
+         d="m 1344.513,60.058159 c 0,10.878891 -8.819,19.697975 -19.6979,19.697975 -10.8789,0 -19.698,-8.819084 -19.698,-19.697975 0,-10.878891 8.8191,-19.697975 19.698,-19.697975 10.8789,0 19.6979,8.819084 19.6979,19.697975 z"
          transform="matrix(1.2074386,0,0,1.2183425,-98.164254,116.86709)" />
       <rect
          style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -129,12 +120,12 @@
          y="391.60818"
          style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Sans;-inkscape-font-specification:Sans">browser</tspan></text>
     <image
-       y="331.97375"
-       x="482.13596"
-       id="image4614"
-       xlink:href="file:///home/mskrajnowski/projects/acodemy-twitter/design/spotify-logo-primary-horizontal-light-background-rgb.png"
+       xlink:href="spotify-logo-primary-horizontal-light-background-rgb.png"
+       width="272.3779"
        height="82.267258"
-       width="272.3779" />
+       id="image4614"
+       x="482.13596"
+       y="331.97375" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2119,7 +2110,7 @@
          style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
       <path
          transform="matrix(0.72619974,0,0,0.72619974,444.92667,146.49732)"
-         d="m 1344.513,60.058159 a 19.697975,19.697975 0 1 1 -39.3959,0 19.697975,19.697975 0 1 1 39.3959,0 z"
+         d="m 1344.513,60.058159 c 0,10.878891 -8.819,19.697975 -19.6979,19.697975 -10.8789,0 -19.698,-8.819084 -19.698,-19.697975 0,-10.878891 8.8191,-19.697975 19.698,-19.697975 10.8789,0 19.6979,8.819084 19.6979,19.697975 z"
          sodipodi:ry="19.697975"
          sodipodi:rx="19.697975"
          sodipodi:cy="60.058159"
@@ -2157,12 +2148,12 @@
            style="font-size:20px">search...</tspan></text>
     </g>
     <image
-       y="163.94185"
-       x="11.213926"
-       id="image4665"
-       xlink:href="file:///home/mskrajnowski/projects/acodemy-twitter/design/spotify-logo-primary-horizontal-dark-background-rgb.png"
+       xlink:href="spotify-logo-primary-horizontal-dark-background-rgb.png"
+       width="170.51138"
        height="51.500153"
-       width="170.51138" />
+       id="image4665"
+       x="11.213926"
+       y="163.94185" />
     <rect
        style="color:#000000;fill:#84bd00;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect4670"
