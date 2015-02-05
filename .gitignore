@@ -3,8 +3,9 @@
 build
 src/bower
 node_modules
+src/tmp
 
 *.sublime-workspace
 *.sublime-project
 
-tmp
+dist
