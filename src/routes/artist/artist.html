@@ -16,6 +16,7 @@
       <table class="tracks-table">
         <tr ng-repeat="track in page.topTracks | limitTo:5">
           <td><play-button audio-src="{{ track.preview_url }}"></play-button></td>
+          <!-- <td><button is="wc-play-button" audio-src="{{ track.preview_url }}"></button></td> -->
           <td><a ng-href="#/album/{{ track.album.id }}/{{ track.id }}">{{ track.name }}</a></td>
           <td><a ng-href="#/album/{{ track.album.id }}">{{ track.album.name }}</a></td>
           <td>
