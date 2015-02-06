@@ -57,7 +57,7 @@ gulp.task('index', function () {
     }))
     .pipe(inject(es.merge(
       gulp
-        .src(['./src/**/*.js', './src/**/*.css', '!./src/bower/**'], {read: false})
+        .src(['./src/**/*.js', './src/**/*.css', '!./src/bower/**', '!./src/webcomponents/**'], {read: false})
         .pipe(angularFilesort())
       ),
       {
