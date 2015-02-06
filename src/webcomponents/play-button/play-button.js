@@ -1,3 +1,6 @@
+'use strict';
+var playButtons = [];
+
 Polymer('wc-play-button', {
   src: undefined,
   loadedSrc: undefined,
@@ -5,13 +8,18 @@ Polymer('wc-play-button', {
   ready: function() {
 
     this.play = function() {
-      if (!this.src) { return; }
-
-      this.$.audio.src = this.src;
-      if (0 && this.loadedSrc !== this.src) {
+      if (!this['audio-src']) { return; }
+      
+      this.$.audio.src = this['audio-src'];
+      if (this.loadedSrc !== this['audio-src']) {
         this.state = this.states.loading;
         this.$.audio.load();
       }
+
+      playButtons.forEach( function (button) {
+        button.pause();
+      });
+
       this.$.audio.play();
     };
 
@@ -58,6 +66,9 @@ Polymer('wc-play-button', {
     this.$.audio.addEventListener.call(this, 'ended', function() {
       this.state = this.states.stopped;
     });
+  },
+  attached: function() {
+    playButtons.push(this);
   },
   srcChanged: function(attrName, oldVal, newVal) {
     console.log(oldVal, newVal);
