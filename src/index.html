@@ -11,39 +11,25 @@
 
   <!-- app styling -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="directives/play-button/play-button.css">
-  <link rel="stylesheet" href="navbar/navbar.css">
-  <link rel="stylesheet" href="app/app.css">
+  <link rel="stylesheet" href="styles.css">
   <!-- endinject -->
 
   <!-- webcomponents -->
   <!-- webcomponents:html -->
+
   <link rel="import" href="bower/polymer/polymer.html">
-  <link rel="import" href="webcomponents/play-button/play-button.html">
+
   <!-- endinject -->
 </head>
-<body ng-app="acodemy-app">
-  <nav class="app-navbar"
-       ng-controller="NavbarController as navbar"
-       ng-class="{
-         initialized: navbar.initialized,
-         minimized: !navbar.isSearch() || navbar.searchQuery
-       }"
-       ng-cloak>
-
-    <a class="app-logo"
-       href="#/search"
-       ng-click="navbar.clearSearch()">
+<body>
+  <nav class="app-navbar initialized minimized">
+    <a class="app-logo" href="/">
       <i class="fa fa-spotify"></i> Spotify browser
     </a>
     <div class="app-search">
       <input type="text"
-             placeholder="search..."
-             ng-model="navbar.searchQuery"
-             ng-change="navbar.openSearchPage()">
+             placeholder="search..." >
       <button type="button"
-              ng-show="navbar.searchQuery"
-              ng-click="navbar.clearSearch()"
               class="input-clear"
               tabindex="-1">
         <i class="fa fa-times"></i>
@@ -51,31 +37,96 @@
     </div>
   </nav>
 
-  <ng-view></ng-view>
+
+  <section class="tiles-section">
+    <header>
+      <h1>Albums</h1>
+      <h2>156 found</h2>
+    </header>
+    <div class="tiles-container">
+      <a class="tile thumb-m" title="Album" href="/album/"></a>
+      <a class="tile thumb-m" title="Album" href="/album/"></a>
+      <a class="tile thumb-m" title="Album" href="/album/"></a>
+      <a class="tile thumb-m" title="Album" href="/album/"></a>
+      <a class="tile thumb-m" title="Album" href="/album/"></a>
+      <a class="tile thumb-m" title="Album" href="/album/"></a>
+    </div>
+  </section>
+
+  <section class="tiles-section">
+    <header>
+      <h1>Artists</h1>
+      <h2>32 found</h2>
+    </header>
+    <div class="tiles-container">
+      <a class="tile thumb-m" title="Artist" href="/artist/"></a>
+      <a class="tile thumb-m" title="Artist" href="/artist/"></a>
+      <a class="tile thumb-m" title="Artist" href="/artist/"></a>
+      <a class="tile thumb-m" title="Artist" href="/artist/"></a>
+      <a class="tile thumb-m" title="Artist" href="/artist/"></a>
+      <a class="tile thumb-m" title="Artist" href="/artist/"></a>
+    </div>
+  </section>
+
+  <section class="table-section">
+    <header>
+      <h1>Tracks</h1>
+      <h2>1788 found</h2>
+    </header>
+    <table class="tracks-table">
+      <tr>
+        <td>
+          <button class="play-button">
+            <div class="icon-background">
+              <i class="fa fa-play"></i>
+            </div>
+          </button>
+        </td>
+        <td><a href="/album/">Track</a></td>
+        <td><a href="/album/">Album</a></td>
+        <td><a href="/artist/">Artist</a></td>
+        <td class="">9:59</td>
+      </tr>
+      <tr>
+        <td>
+          <button class="play-button">
+            <div class="icon-background">
+              <i class="fa fa-play"></i>
+            </div>
+          </button>
+        </td>
+        <td><a href="/album/">Track</a></td>
+        <td><a href="/album/">Album</a></td>
+        <td><a href="/artist/">Artist</a></td>
+        <td class="">9:59</td>
+      </tr>
+      <tr>
+        <td>
+          <button class="play-button">
+            <div class="icon-background">
+              <i class="fa fa-play"></i>
+            </div>
+          </button>
+        </td>
+        <td><a href="/album/">Track</a></td>
+        <td><a href="/album/">Album</a></td>
+        <td><a href="/artist/">Artist</a></td>
+        <td class="">9:59</td>
+      </tr>
+    </tbody></table>
+  </section>
 
   <!-- dependencies -->
   <!-- bower:js -->
   <script src="bower/angular/angular.js"></script>
-  <script src="bower/angular-animate/angular-animate.js"></script>
-  <script src="bower/angular-cookies/angular-cookies.js"></script>
   <script src="bower/angular-route/angular-route.js"></script>
-  <script src="bower/angular-sanitize/angular-sanitize.js"></script>
-  <script src="bower/angular-touch/angular-touch.js"></script>
   <!-- endinject -->
 
   <!-- app logic -->
   <!-- inject:js -->
-  <script src="tmp/coffee/navbar/test.js"></script>
-  <script src="routes/search/search.js"></script>
-  <script src="routes/not-found/not-found.js"></script>
-  <script src="routes/artist/artist.js"></script>
-  <script src="routes/album/album.js"></script>
-  <script src="directives/play-button/play-button.js"></script>
-  <script src="utils/duration-filter.js"></script>
-  <script src="utils/debounce.js"></script>
-  <script src="navbar/navbar.js"></script>
-  <script src="app/app.js"></script>
-  <script src="apis/spotify.js"></script>
+
+  <!-- app scripts go here! -->
+
   <!-- endinject -->
 </body>
 </html>
