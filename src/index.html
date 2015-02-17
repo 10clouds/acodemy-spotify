@@ -87,11 +87,7 @@
     <table class="tracks-table">
       <tr ng-repeat="track in searchResults.tracks.items">
         <td>
-          <button class="play-button">
-            <div class="icon-background">
-              <i class="fa fa-play"></i>
-            </div>
-          </button>
+          <play-button src="{{ track.preview_url }}">
         </td>
         <td><a href="album/index.html">{{ track.name }}</a></td>
         <td><a href="album/index.html">{{ track.album.name }}</a></td>
