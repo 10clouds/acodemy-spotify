@@ -37,7 +37,8 @@
     <div class="app-search">
       <input type="text"
              placeholder="search..."
-             ng-model="search">
+             ng-model="search"
+             ng-model-options="{debounce: 250}">
       <button type="button"
               class="input-clear"
               tabindex="-1"
@@ -54,9 +55,7 @@
       <h2>{{ searchResults.albums.total }} found</h2>
     </header>
     <div class="tiles-container">
-      <a ng-repeat="album in searchResults.albums.items | filter:{name: search}
-                                                        | orderBy:'name'
-                                                        | limitTo:5"
+      <a ng-repeat="album in searchResults.albums.items"
          class="tile thumb-m"
          ng-style="{'background-image': 'url(' + album.images[0].url + ')'}"
          title="{{ album.name }}"
@@ -71,9 +70,7 @@
       <h2>{{ searchResults.artists.total }} found</h2>
     </header>
     <div class="tiles-container">
-      <a ng-repeat="artist in searchResults.artists.items | filter:{name: search}
-                                                          | orderBy:'name'
-                                                          | limitTo:5"
+      <a ng-repeat="artist in searchResults.artists.items"
          class="tile thumb-m"
          ng-style="{'background-image': 'url(' + artist.images[0].url + ')'}"
          title="{{ artist.name }}"
@@ -88,9 +85,7 @@
       <h2>{{ searchResults.tracks.total }} found</h2>
     </header>
     <table class="tracks-table">
-      <tr ng-repeat="track in searchResults.tracks.items | filter:{name: search}
-                                                         | orderBy:'name'
-                                                         | limitTo:5">
+      <tr ng-repeat="track in searchResults.tracks.items">
         <td>
           <button class="play-button">
             <div class="icon-background">
