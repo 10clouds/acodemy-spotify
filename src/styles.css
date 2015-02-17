@@ -221,20 +221,22 @@ a.thumb-l:hover, a.thumb-l:focus {
   padding: 15px;
 }
 
-a.app-logo {
+.app-logo {
   position: absolute;
   left: 50%;
   top: 50%;
   text-align: center;
   margin: -55px -165px;
-  width: 330px;
+  /*width: 330px;*/
   height: 42px;
 
   font-size: 36px;
   color: #fff;
 }
 
-a.app-logo:hover, a.app-logo:focus {
+.app-logo a,
+.app-logo a:hover,
+.app-logo a:focus {
   color: #fff;
 }
 
