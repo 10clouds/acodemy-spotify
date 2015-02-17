@@ -8,9 +8,32 @@ angular.module('app', [])
     return minutes + ':' + (seconds < 10 ? '0' + seconds : seconds);
   };
 })
-.controller('MainController', function($scope, $http, $location) {
-  $scope.search = $location.search().q || '';
+.provider('SpotifyApi', function() {
+  this.apiUrl = 'https://api.spotify.com/v1';
+  this.defaults = {
+    params: {
+      limit: 10
+    }
+  };
 
+  this.$get = function($http) {
+    return {
+      apiUrl: this.apiUrl,
+      defaults: this.defaults,
+      search: function(query, types) {
+        var url = this.apiUrl + '/search';
+        var config = angular.copy(this.defaults);
+
+        config.params.q = query;
+        config.params.type = types.join(',');
+
+        return $http.get(url, config);
+      }
+    };
+  };
+})
+.controller('MainController', function($scope, $location, SpotifyApi) {
+  $scope.search = $location.search().q || '';
   $scope.searchResults = {};
 
   $scope.$watch('search', function(search) {
@@ -21,13 +44,7 @@ angular.module('app', [])
       return;
     }
 
-    $http.get('https://api.spotify.com/v1/search', {
-      params: {
-        q: search,
-        type: 'album,artist,track',
-        limit: 10
-      }
-    })
+    SpotifyApi.search(search, ['album', 'artist', 'track'])
     .then(function(response) {
       $scope.searchResults = response.data;
     });
