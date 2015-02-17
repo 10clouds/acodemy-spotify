@@ -23,8 +23,7 @@
 </head>
 <body ng-app="app" ng-controller="MainController">
   <nav class="app-navbar initialized"
-       ng-class="{minimized: search}"
-       ng-controller="NavbarController">
+       ng-class="{minimized: search}">
     <div class="app-logo">
       <a href="">
         <i class="fa fa-spotify"></i> Spotify browser
@@ -55,7 +54,9 @@
       <h2>{{ searchResults.albums.total }} found</h2>
     </header>
     <div class="tiles-container">
-      <a ng-repeat="album in searchResults.albums.items"
+      <a ng-repeat="album in searchResults.albums.items | filter:{name: search}
+                                                        | orderBy:'name'
+                                                        | limitTo:5"
          class="tile thumb-m"
          ng-style="{'background-image': 'url(' + album.images[0].url + ')'}"
          title="{{ album.name }}"
@@ -70,7 +71,9 @@
       <h2>{{ searchResults.artists.total }} found</h2>
     </header>
     <div class="tiles-container">
-      <a ng-repeat="artist in searchResults.artists.items"
+      <a ng-repeat="artist in searchResults.artists.items | filter:{name: search}
+                                                          | orderBy:'name'
+                                                          | limitTo:5"
          class="tile thumb-m"
          ng-style="{'background-image': 'url(' + artist.images[0].url + ')'}"
          title="{{ artist.name }}"
@@ -85,7 +88,9 @@
       <h2>{{ searchResults.tracks.total }} found</h2>
     </header>
     <table class="tracks-table">
-      <tr ng-repeat="track in searchResults.tracks.items">
+      <tr ng-repeat="track in searchResults.tracks.items | filter:{name: search}
+                                                         | orderBy:'name'
+                                                         | limitTo:5">
         <td>
           <button class="play-button">
             <div class="icon-background">
@@ -96,7 +101,7 @@
         <td><a href="album/index.html">{{ track.name }}</a></td>
         <td><a href="album/index.html">{{ track.album.name }}</a></td>
         <td><a href="artist/index.html">{{ track.artist.name }}</a></td>
-        <td class="">{{ track.duration_ms }}</td>
+        <td class="">{{ track.duration_ms | duration }}</td>
       </tr>
     </tbody></table>
   </section>
