@@ -50,13 +50,13 @@
   <section class="tiles-section">
     <header>
       <h1>Albums</h1>
-      <h2>1 found</h2>
+      <h2>{{ searchResults.albums.total }} found</h2>
     </header>
     <div class="tiles-container">
-      <a ng-controller="AlbumController"
+      <a ng-repeat="album in searchResults.albums.items"
          class="tile thumb-m"
+         ng-style="{'background-image': 'url(' + album.images[0].url + ')'}"
          title="{{ album.name }}"
-         ng-style="{'background-image': 'url(' + album.image + ')'}"
          href="album/index.html">
       </a>
     </div>
@@ -80,10 +80,10 @@
   <section class="table-section">
     <header>
       <h1>Tracks</h1>
-      <h2>1788 found</h2>
+      <h2>{{ searchResults.tracks.total }} found</h2>
     </header>
     <table class="tracks-table">
-      <tr ng-controller="TrackController">
+      <tr ng-repeat="track in searchResults.tracks.items">
         <td>
           <button class="play-button">
             <div class="icon-background">
@@ -94,7 +94,7 @@
         <td><a href="album/index.html">{{ track.name }}</a></td>
         <td><a href="album/index.html">{{ track.album.name }}</a></td>
         <td><a href="artist/index.html">{{ track.artist.name }}</a></td>
-        <td class="">{{ track.duration }}</td>
+        <td class="">{{ track.duration_ms }}</td>
       </tr>
     </tbody></table>
   </section>
