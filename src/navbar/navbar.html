@@ -2,7 +2,8 @@
      ng-class="{minimized: search}"
      ng-controller="NavbarController">
   <div class="app-logo">
-    <a href="">
+    <a href="#/search"
+       ng-click="clearSearch()">
       <i class="fa fa-spotify"></i> Spotify browser
     </a>
 
@@ -15,11 +16,12 @@
     <input type="text"
            placeholder="search..."
            ng-model="search"
-           ng-model-options="{debounce: 250}">
+           ng-model-options="{debounce: 250}"
+           ng-change="openSearchRoute()">
     <button type="button"
             class="input-clear"
             tabindex="-1"
-            ng-click="search = '';">
+            ng-click="clearSearch()">
       <i class="fa fa-times"></i>
     </button>
   </div>
