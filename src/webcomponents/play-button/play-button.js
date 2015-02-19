@@ -51,17 +51,18 @@
   });
 
   PlayButton.prototype.createdCallback = function() {
-    var button = this.querySelector('button');
+    // Workaround caused by: ng-route + web-components crashes Chrome
+    // https://github.com/angular/angular.js/issues/11654
+    // https://code.google.com/p/chromium/issues/detail?id=478699
+    setTimeout((function() {
 
-    // play-button reused by angular with contents
-    if (!button) {
-      var clone = document.importNode(template.content, true);
-      this.appendChild(clone);
-      button = this.querySelector('button');
-    }
+    var shadow = this.createShadowRoot();
+    var clone = document.importNode(template.content, true);
+    shadow.appendChild(clone);
+    var button = shadow.querySelector('button');
 
     this._icon = button.querySelector('button i');
-    this._audio = this.querySelector('audio');
+    this._audio = shadow.querySelector('audio');
 
     this.state = 'stopped';
 
@@ -69,6 +70,8 @@
       var nextMethod = states[this.state].next;
       this[nextMethod]();
     }).bind(this));
+
+    }).bind(this), 10);
   };
 
   PlayButton.prototype.attachedCallback = function() {
