@@ -25,6 +25,15 @@
 </head>
 <body ng-app="acodemy-app">
 
+  <template id="playButtonTemplate">
+    <button class="play-button" ng-click="state.next()">
+      <div class="icon-background">
+        <i class="{{ state.iconClass }}"></i>
+      </div>
+    </button>
+    <audio src=""></audio>
+  </template>
+
   <ng-include src="'/navbar/navbar.html'"></ng-include>
 
   <ng-view></ng-view>
@@ -39,8 +48,10 @@
   <!-- inject:js -->
 
   <script src="routes/search/search.js"></script>
-  <script src="routes/album/album.js"></script>
+
   <script src="routes/artist/artist.js"></script>
+
+  <script src="routes/album/album.js"></script>
 
   <script src="directives/play-button/play-button.js"></script>
 

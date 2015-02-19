@@ -1,10 +1,13 @@
 angular.module('acodemy-app.directives.play-button', [])
-.directive('playButton', function() {
+.directive('playButton', function($document) {
   var players = [];
+
+  var document = $document[0];
+  var template = document.getElementById('playButtonTemplate');
 
   return {
     restrict: 'E',
-    templateUrl: 'directives/play-button/play-button.html',
+    template: template.innerHTML,
     scope: {
       src: '@'
     },
