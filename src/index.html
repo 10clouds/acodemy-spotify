@@ -11,7 +11,6 @@
 
   <!-- app styling -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="directives/play-button/play-button.css">
   <link rel="stylesheet" href="navbar/navbar.css">
   <link rel="stylesheet" href="app/app.css">
   <!-- endinject -->
@@ -21,19 +20,11 @@
 
   <link rel="import" href="bower/polymer/polymer.html">
 
+  <link rel="import" href="webcomponents/play-button/play-button.html">
+
   <!-- endinject -->
 </head>
 <body ng-app="acodemy-app">
-
-  <template id="playButtonTemplate">
-    <button class="play-button" ng-click="state.next()">
-      <div class="icon-background">
-        <i class="{{ state.iconClass }}"></i>
-      </div>
-    </button>
-    <audio src=""></audio>
-  </template>
-
   <ng-include src="'/navbar/navbar.html'"></ng-include>
 
   <ng-view></ng-view>
