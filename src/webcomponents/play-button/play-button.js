@@ -1,7 +1,4 @@
 (function() {
-  var ownerDocument = document._currentScript.ownerDocument;
-  var template = ownerDocument.querySelector('template');
-
   var states = {
     stopped: {
       iconClass: 'fa fa-play',
@@ -19,107 +16,68 @@
 
   var players = [];
 
-  function PlayButton() {}
+  Polymer('play-button', {
+    src: '',
+    _iconClass: '',
 
-  PlayButton.prototype = Object.create(HTMLElement.prototype);
-
-  Object.defineProperty(PlayButton.prototype, 'src', {
-    enumerable: true,
-    get: function() {
-      var attr = this.attributes.getNamedItem('src');
-      return attr ? attr.value : '';
+    get state() {
+      return this._state;
     },
-    set: function(value) {
-      var attr = this.attributes.getNamedItem('src');
-      if (!attr) {
-        attr = document.createAttribute('src');
-        this.attributes.setNamedItem(attr);
-      }
-      attr.value = value;
-    }
-  });
 
-  Object.defineProperty(PlayButton.prototype, 'state', {
-    enumerable: true,
-    get: function() {
-      return this._stateName || 'stopped';
+    set state(name) {
+      this._state = name;
+      this._iconClass = states[name].iconClass;
     },
-    set: function(name) {
-      this._stateName = name;
-      this._icon.className = states[name].iconClass;
-    }
-  });
 
-  PlayButton.prototype.createdCallback = function() {
-    // Workaround caused by: ng-route + web-components crashes Chrome
-    // https://github.com/angular/angular.js/issues/11654
-    // https://code.google.com/p/chromium/issues/detail?id=478699
-    setTimeout((function() {
+    ready: function() {
+      this.state = 'stopped';
+    },
 
-    var shadow = this.createShadowRoot();
-    var clone = document.importNode(template.content, true);
-    shadow.appendChild(clone);
-    var button = shadow.querySelector('button');
+    attached: function() {
+      players.push(this);
+    },
 
-    this._icon = button.querySelector('button i');
-    this._audio = shadow.querySelector('audio');
+    detached: function() {
+      var index = players.indexOf(this);
+      players.splice(index, 1);
+    },
 
-    this.state = 'stopped';
-
-    button.addEventListener('click', (function() {
+    onClick: function() {
       var nextMethod = states[this.state].next;
       this[nextMethod]();
-    }).bind(this));
+    },
 
-    }).bind(this), 10);
-  };
-
-  PlayButton.prototype.attachedCallback = function() {
-    players.push(this);
-  };
-
-  PlayButton.prototype.detachedCallback = function() {
-    var index = players.indexOf(this);
-    players.splice(index, 1);
-  };
-
-  PlayButton.prototype.attributeChangedCallback = function(
-    attrName, oldValue, newValue
-  ) {
-    if (attrName === 'src') {
+    srcChanged: function(oldValue, newValue) {
       this.stop();
-    }
-  };
+    },
 
-  PlayButton.prototype.play = function() {
-    players.forEach(function(other) {
-      if (other !== this) {
-        other.stop();
+    play: function() {
+      players.forEach(function(other) {
+        if (other !== this) {
+          other.stop();
+        }
+      });
+
+      if (this.src !== this.$.audio.src) {
+        this.$.audio.src = this.src;
+        this.$.audio.load();
       }
-    });
 
-    if (this.src !== this._audio.src) {
-      this._audio.src = this.src;
-      this._audio.load();
+      this.$.audio.play();
+      this.state = 'playing';
+    },
+
+    pause: function() {
+      this.$.audio.pause();
+      this.state = 'paused';
+    },
+
+    stop: function() {
+      this.$.audio.pause();
+      this.$.audio.currentTime = 0;
+      this.state = 'stopped';
     }
 
-    this._audio.play();
-    this.state = 'playing';
-  };
-
-  PlayButton.prototype.pause = function() {
-    this._audio.pause();
-    this.state = 'paused';
-  };
-
-  PlayButton.prototype.stop = function() {
-    this._audio.pause();
-    this._audio.currentTime = 0;
-    this.state = 'stopped';
-  };
-
-  document.registerElement('play-button', {
-    prototype: PlayButton.prototype
   });
 
 })();
