@@ -13,16 +13,10 @@
   </div>
 
   <div class="app-search">
-    <input type="text"
-           placeholder="search..."
-           ng-model="search"
-           ng-model-options="{debounce: 250}"
-           ng-change="openSearchRoute()">
-    <button type="button"
-            class="input-clear"
-            tabindex="-1"
-            ng-click="clearSearch()">
-      <i class="fa fa-times"></i>
-    </button>
+    <clearable-input placeholder="search..."
+                     ng-model="search"
+                     ng-model-options="{debounce: 250}"
+                     ng-change="openSearchRoute()">
+    </clearable-input>
   </div>
 </nav>

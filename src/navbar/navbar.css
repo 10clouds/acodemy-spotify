@@ -63,7 +63,7 @@
   margin: 0 -265px;
 }
 
-.app-search input {
+.app-search clearable-input::shadow input {
   width: 250px;
   height: 40px;
   border-radius: 20px;
@@ -72,11 +72,11 @@
   padding: 0 20px;
 }
 
-.app-search input:focus {
+.app-search clearable-input::shadow input:focus {
   box-shadow: 0 0 0 4px #84bd00;
 }
 
-.app-search button.input-clear {
+.app-search clearable-input::shadow button {
   position: absolute;
   right: 6px;
   top: 6px;
@@ -89,6 +89,6 @@
   font-size: 20px;
 }
 
-.app-search button.input-clear:hover {
+.app-search clearable-input::shadow button:hover {
   background: #84bd00;
 }
