@@ -2,8 +2,7 @@ angular.module('acodemy-app.routes.search', [
   'ngRoute',
 
   'acodemy-app.apis.spotify',
-  'acodemy-app.filters.duration',
-  'acodemy-app.directives.play-button'
+  'acodemy-app.filters.duration'
 ])
 .config(function($routeProvider) {
   $routeProvider
