@@ -1,4 +1,3 @@
-var angularFilesort = require('gulp-angular-filesort');
 var bowerFiles = require('main-bower-files');
 var coffee = require('gulp-coffee');
 var concat = require('gulp-concat');
@@ -46,36 +45,6 @@ gulp.task('coffee', function() {
     .pipe(coffee({bare: true}).on('error', gutil.log))
     .pipe(gulp.dest('./src/tmp/coffee/'))
 });
-
-gulp.task('index', function () {
-  return gulp
-    .src('./src/index.html')
-    .pipe(inject(gulp.src(bowerFiles(), {read: false}),{
-        name: 'bower',
-        ignorePath: 'src',
-        addRootSlash: false
-    }))
-    .pipe(inject(es.merge(
-      gulp.src(['./src/bower/polymer/polymer.html','./src/webcomponents/**'], {read: false})),
-      {
-        name: 'webcomponents',
-        ignorePath: 'src',
-        addRootSlash: false
-      }
-    ))
-    .pipe(inject(es.merge(
-      gulp
-        .src(['./src/**/*.js', './src/**/*.css', '!./src/bower/**', '!./src/webcomponents/**'], {read: false})
-        .pipe(angularFilesort())
-      ),
-      {
-        ignorePath: 'src',
-        addRootSlash: false
-      }
-    ))
-    .pipe(gulp.dest('./src/'));
-});
-
 
 gulp.task('clearDist', function() {
   return rimraf.sync('./dist', function (err) {
@@ -156,5 +125,5 @@ gulp.task('clearTemplatesJS', ['mergeCompiled'], function() {
 
 
 
-gulp.task('default', ['connect', 'index', 'watch']);
+gulp.task('default', ['connect', 'watch']);
 gulp.task('build', ['clearDist', 'clearTemplatesJS']);
