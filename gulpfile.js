@@ -50,12 +50,7 @@ gulp.task('coffee', function() {
 gulp.task('index', function () {
   return gulp
     .src('./src/index.html')
-    .pipe(inject(gulp.src(bowerFiles({
-        filter: function (packagePath) {
-          if (packagePath.indexOf('webcomponents.js') == -1) return true;
-          return false;
-        }
-      }), {read: false}),{
+    .pipe(inject(gulp.src(bowerFiles(), {read: false}),{
         name: 'bower',
         ignorePath: 'src',
         addRootSlash: false
