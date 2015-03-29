@@ -30,12 +30,12 @@ gulp.task('files', function () {
 gulp.task('watch', function () {
   gulp
     .watch(
-      ['./src/**/*.coffee'],
+      ['src/**/*.coffee'],
       ['coffee']
     );
   return gulp
     .watch(
-      ['./src/**'],
+      ['src/**'],
       ['files']
     );
 });
