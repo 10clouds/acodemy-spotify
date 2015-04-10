@@ -11,6 +11,7 @@ var ngAnnotate = require('gulp-ng-annotate');
 var rimraf = require('rimraf');
 var templateCache = require('gulp-angular-templatecache');
 var uglify = require('gulp-uglify');
+var watch = require('gulp-watch');
 
 gulp.task('connect', function() {
   connect.server({
@@ -22,28 +23,26 @@ gulp.task('connect', function() {
 
 gulp.task('files', function () {
   return gulp
-    .src('./src/**')
+    .src('src/**/*.html')
     .pipe(connect.reload());
 });
 
 gulp.task('watch', function () {
-  gulp
-    .watch(
-      ['src/**/*.coffee'],
-      ['coffee']
-    );
-  return gulp
-    .watch(
-      ['src/**'],
-      ['files']
-    );
+
+  watch('src/**/*.coffee', function(){
+    gulp.start('coffee');
+  });
+
+  return watch('src/**/*.html', function(){
+    return gulp.start('files');
+  });
 });
 
 gulp.task('coffee', function() {
   return gulp
-    .src('./src/**/*.coffee')
+    .src('src/**/*.coffee')
     .pipe(coffee({bare: true}).on('error', gutil.log))
-    .pipe(gulp.dest('./src/tmp/coffee/'))
+    .pipe(gulp.dest('./src/tmp/coffee/'));
 });
 
 gulp.task('clearDist', function() {
