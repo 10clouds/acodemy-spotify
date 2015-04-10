@@ -23,7 +23,7 @@ gulp.task('connect', function() {
 
 gulp.task('files', function () {
   return gulp
-    .src('src/**/*.html')
+    .src('src/**')
     .pipe(connect.reload());
 });
 
@@ -33,7 +33,7 @@ gulp.task('watch', function () {
     gulp.start('coffee');
   });
 
-  return watch('src/**/*.html', function(){
+  return watch('src/**', function(){
     return gulp.start('files');
   });
 });
