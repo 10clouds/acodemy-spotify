@@ -7,9 +7,9 @@
     <div class="tiles-container">
       <a ng-repeat="album in searchResults.albums.items"
          class="tile thumb-m"
-         ng-style="{'background-image': 'url(' + album.images[0].url + ')'}"
+         ng-style="{'background-image': 'url(' + album.images[1].url + ')'}"
          title="{{ album.name }}"
-         href="album/index.html">
+         href="#/album/{{ album.id }}">
       </a>
     </div>
   </section>
@@ -22,9 +22,9 @@
     <div class="tiles-container">
       <a ng-repeat="artist in searchResults.artists.items"
          class="tile thumb-m"
-         ng-style="{'background-image': 'url(' + artist.images[0].url + ')'}"
+         ng-style="{'background-image': 'url(' + artist.images[1].url + ')'}"
          title="{{ artist.name }}"
-         href="artist/index.html">
+         href="#/artist/{{ artist.id }}">
       </a>
     </div>
   </section>
@@ -39,11 +39,16 @@
         <td>
           <play-button src="{{ track.preview_url }}"></play-button>
         </td>
-        <td><a href="album/index.html">{{ track.name }}</a></td>
-        <td><a href="album/index.html">{{ track.album.name }}</a></td>
-        <td><a href="artist/index.html">{{ track.artist.name }}</a></td>
+        <td><a href="#/album/{{ track.album.id }}">{{ track.name }}</a></td>
+        <td><a href="#/album/{{ track.album.id }}">{{ track.album.name }}</a></td>
+        <td>
+          <a ng-repeat="artist in track.artists"
+             href="#/artist/{{ artist.id }}">
+            {{ artist.name }}
+          </a>
+        </td>
         <td class="">{{ track.duration_ms | duration }}</td>
       </tr>
-    </tbody></table>
+    </table>
   </section>
 </div>
