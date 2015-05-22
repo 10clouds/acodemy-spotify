@@ -1,0 +1,36 @@
+<link rel="import" href="/bower/polymer/polymer.html">
+
+<polymer-element name="clearable-input" attributes="value placeholder">
+  <template>
+    <style>
+      @import url('/bower/font-awesome/css/font-awesome.css');
+
+      * {
+        box-sizing: border-box;
+      }
+
+      input, button {
+        outline: none;
+        font-size: 16px;
+      }
+
+      button {
+        display: none;
+        cursor: pointer;
+      }
+
+      button.visible {
+        display: block;
+      }
+    </style>
+
+    <input type="text"
+           placeholder="{{ placeholder }}"
+           value="{{ value }}">
+    <button on-click="{{ clear }}"
+            class="{{ {visible: !!value} | tokenList }}">
+      <i class="fa fa-times"></i>
+    </button>
+  </template>
+  <script src="clearable-input.js"></script>
+</polymer-element>

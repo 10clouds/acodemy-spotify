@@ -19,6 +19,8 @@
 
   <link rel="import" href="bower/polymer/polymer.html">
 
+  <link rel="import" href="webcomponents/clearable-input/clearable-input.html">
+
   <link rel="import" href="webcomponents/play-button/play-button.html">
 
   <!-- endinject -->
@@ -38,16 +40,10 @@
     </div>
 
     <div class="app-search">
-      <input type="text"
-             placeholder="search..."
-             ng-model="search"
-             ng-model-options="{debounce: 250}">
-      <button type="button"
-              class="input-clear"
-              tabindex="-1"
-              ng-click="search = '';">
-        <i class="fa fa-times"></i>
-      </button>
+      <clearable-input placeholder="search..."
+                       ng-model="search"
+                       ng-model-options="{debounce: 250}">
+      </clearable-input>
     </div>
   </nav>
 
