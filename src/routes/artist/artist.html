@@ -1,0 +1,63 @@
+<header class="page-header">
+  <aside>
+    <div class="thumb-l"
+         ng-style="{'background-image': 'url(' + artist.images[1].url + ')'}">
+    </div>
+  </aside>
+
+  <section>
+    <header>
+      <h1>{{ artist.name }}</h1>
+      <h2>{{ artist.followers.total }} followers</h2>
+    </header>
+
+    <section class="table-section">
+      <header><h1>Top tracks</h1></header>
+      <table class="tracks-table">
+        <tr ng-repeat="track in topTracks">
+          <td>
+            <play-button src="{{ track.preview_url }}"></play-button>
+          </td>
+          <td><a href="#/album/{{ track.album.id }}">{{ track.name }}</a></td>
+          <td><a href="#/album/{{ track.album.id }}">{{ track.album.name }}</a></td>
+          <td>
+            <a ng-repeat="artist in track.artists"
+               href="#/artist/{{ artist.id }}">
+              {{ artist.name }}
+            </a>
+          </td>
+          <td class="">{{ track.duration_ms | duration }}</td>
+        </tr>
+      </table>
+    </section>
+  </section>
+</header>
+
+<section class="tiles-section">
+  <header>
+    <h1>Albums</h1>
+    <h2>{{ albums.total }} found</h2>
+  </header>
+  <div class="tiles-container">
+    <a ng-repeat="album in albums.items"
+       class="tile thumb-m"
+       ng-style="{'background-image': 'url(' + album.images[1].url + ')'}"
+       title="{{ album.name }}"
+       href="#/album/{{ album.id }}">
+    </a>
+  </div>
+</section>
+
+<section class="tiles-section">
+  <header>
+    <h1>Related artists</h1>
+  </header>
+  <div class="tiles-container">
+    <a ng-repeat="artist in relatedArtists"
+       class="tile thumb-m"
+       ng-style="{'background-image': 'url(' + artist.images[1].url + ')'}"
+       title="{{ artist.name }}"
+       href="#/artist/{{ artist.id }}">
+    </a>
+  </div>
+</section>
