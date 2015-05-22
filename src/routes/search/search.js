@@ -1,24 +1,35 @@
 angular.module('acodemy-app.routes.search', [
+  'ngRoute',
+
   'acodemy-app.apis.spotify',
   'acodemy-app.filters.duration',
 ])
-.controller('SearchRouteController', function($scope, $location, SpotifyApi) {
+.config(function($routeProvider) {
+  $routeProvider
+    .when('/search', {
+      templateUrl: 'routes/search/search.html',
+      controller: 'SearchRouteController',
+      reloadOnSearch: false
+    });
+})
+.controller('SearchRouteController', function(
+  $scope, $location, $routeParams,
+  SpotifyApi
+) {
   $scope.searchResults = {};
 
-  $scope.$watch(
-    function() {
-      return $location.search().q || '';
-    },
-    function(search) {
-      if (!search) {
-        $scope.searchResults = {};
-        return;
-      }
-
-      SpotifyApi.search(search, ['album', 'artist', 'track'])
-      .then(function(response) {
-        $scope.searchResults = response.data;
-      });
+  function update() {
+    if (!$routeParams.q) {
+      $scope.searchResults = {};
+      return;
     }
-  );
+
+    SpotifyApi.search($routeParams.q, ['album', 'artist', 'track'])
+    .then(function(response) {
+      $scope.searchResults = response.data;
+    });
+  }
+
+  $scope.$on('$routeUpdate', update);
+  update();
 });
