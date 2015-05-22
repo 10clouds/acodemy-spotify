@@ -21,16 +21,23 @@
 
   <!-- endinject -->
 </head>
-<body>
-  <nav class="app-navbar initialized minimized">
+<body ng-app="app" ng-controller="MainController">
+  <nav class="app-navbar initialized minimized"
+       ng-controller="NavbarController">
     <div class="app-logo">
       <a href="">
         <i class="fa fa-spotify"></i> Spotify browser
       </a>
+
+      <span ng-show="search">
+        : {{ search }}
+      </span>
     </div>
+
     <div class="app-search">
       <input type="text"
-             placeholder="search..." >
+             placeholder="search..."
+             ng-model="search">
       <button type="button"
               class="input-clear"
               tabindex="-1">
@@ -43,30 +50,30 @@
   <section class="tiles-section">
     <header>
       <h1>Albums</h1>
-      <h2>156 found</h2>
+      <h2>1 found</h2>
     </header>
     <div class="tiles-container">
-      <a class="tile thumb-m" title="Album" href="album/index.html"></a>
-      <a class="tile thumb-m" title="Album" href="album/index.html"></a>
-      <a class="tile thumb-m" title="Album" href="album/index.html"></a>
-      <a class="tile thumb-m" title="Album" href="album/index.html"></a>
-      <a class="tile thumb-m" title="Album" href="album/index.html"></a>
-      <a class="tile thumb-m" title="Album" href="album/index.html"></a>
+      <a ng-controller="AlbumController"
+         class="tile thumb-m"
+         title="{{ album.name }}"
+         ng-style="{'background-image': 'url(' + album.image + ')'}"
+         href="album/index.html">
+      </a>
     </div>
   </section>
 
   <section class="tiles-section">
     <header>
       <h1>Artists</h1>
-      <h2>32 found</h2>
+      <h2>{{ searchResults.artists.total }} found</h2>
     </header>
     <div class="tiles-container">
-      <a class="tile thumb-m" title="Artist" href="artist/index.html"></a>
-      <a class="tile thumb-m" title="Artist" href="artist/index.html"></a>
-      <a class="tile thumb-m" title="Artist" href="artist/index.html"></a>
-      <a class="tile thumb-m" title="Artist" href="artist/index.html"></a>
-      <a class="tile thumb-m" title="Artist" href="artist/index.html"></a>
-      <a class="tile thumb-m" title="Artist" href="artist/index.html"></a>
+      <a ng-repeat="artist in searchResults.artists.items"
+         class="tile thumb-m"
+         ng-style="{'background-image': 'url(' + artist.images[0].url + ')'}"
+         title="{{ artist.name }}"
+         href="artist/index.html">
+      </a>
     </div>
   </section>
 
@@ -76,7 +83,7 @@
       <h2>1788 found</h2>
     </header>
     <table class="tracks-table">
-      <tr>
+      <tr ng-controller="TrackController">
         <td>
           <button class="play-button">
             <div class="icon-background">
@@ -84,36 +91,10 @@
             </div>
           </button>
         </td>
-        <td><a href="album/index.html">Track</a></td>
-        <td><a href="album/index.html">Album</a></td>
-        <td><a href="artist/index.html">Artist</a></td>
-        <td class="">9:59</td>
-      </tr>
-      <tr>
-        <td>
-          <button class="play-button">
-            <div class="icon-background">
-              <i class="fa fa-play"></i>
-            </div>
-          </button>
-        </td>
-        <td><a href="album/index.html">Track</a></td>
-        <td><a href="album/index.html">Album</a></td>
-        <td><a href="artist/index.html">Artist</a></td>
-        <td class="">9:59</td>
-      </tr>
-      <tr>
-        <td>
-          <button class="play-button">
-            <div class="icon-background">
-              <i class="fa fa-play"></i>
-            </div>
-          </button>
-        </td>
-        <td><a href="album/index.html">Track</a></td>
-        <td><a href="album/index.html">Album</a></td>
-        <td><a href="artist/index.html">Artist</a></td>
-        <td class="">9:59</td>
+        <td><a href="album/index.html">{{ track.name }}</a></td>
+        <td><a href="album/index.html">{{ track.album.name }}</a></td>
+        <td><a href="artist/index.html">{{ track.artist.name }}</a></td>
+        <td class="">{{ track.duration }}</td>
       </tr>
     </tbody></table>
   </section>
@@ -128,7 +109,7 @@
   <!-- app logic -->
   <!-- inject:js -->
 
-  <!-- app scripts go here! -->
+  <script src="app.js"></script>
 
   <!-- endinject -->
 </body>
