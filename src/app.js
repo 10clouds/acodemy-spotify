@@ -36,18 +36,15 @@ angular.module('app', [])
     };
   };
 })
-.directive('playButton', function() {
+.directive('playButton', function($document) {
   var players = [];
+
+  var document = $document[0];
+  var template = document.getElementById('playButtonTemplate');
 
   return {
     restrict: 'E',
-    template:
-      '<button class="play-button" ng-click="state.next()">' +
-      '  <div class="icon-background">' +
-      '    <i class="{{ state.iconClass }}"></i>' +
-      '  </div>' +
-      '</button>' +
-      '<audio src=""></audio>',
+    template: template.innerHTML,
     scope: {
       src: '@'
     },
