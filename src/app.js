@@ -8,7 +8,11 @@ angular.module('app', [])
     return minutes + ':' + (seconds < 10 ? '0' + seconds : seconds);
   };
 })
-.provider('SpotifyApi', function() {
+.provider('SpotifyApi', function($sceDelegateProvider) {
+  var whitelist = $sceDelegateProvider.resourceUrlWhitelist();
+  whitelist.push('https://p.scdn.co/mp3-preview/**');
+  $sceDelegateProvider.resourceUrlWhitelist(whitelist);
+
   this.apiUrl = 'https://api.spotify.com/v1';
   this.defaults = {
     params: {
@@ -30,6 +34,84 @@ angular.module('app', [])
         return $http.get(url, config);
       }
     };
+  };
+})
+.directive('playButton', function() {
+  var players = [];
+
+  return {
+    restrict: 'E',
+    template:
+      '<button class="play-button" ng-click="state.next()">' +
+      '  <div class="icon-background">' +
+      '    <i class="{{ state.iconClass }}"></i>' +
+      '  </div>' +
+      '</button>' +
+      '<audio src=""></audio>',
+    scope: {
+      src: '@'
+    },
+    link: function($scope, $element, $attrs) {
+      players.push($scope);
+
+      var audio = $element.find('audio')[0];
+      var states;
+
+      $scope.play = function() {
+        players.forEach(function(scope) {
+          if (scope !== $scope) {
+            scope.stop();
+          }
+        });
+
+        if (audio.src !== $scope.src) {
+          audio.src = $scope.src;
+          audio.load();
+        }
+        audio.play();
+
+        $scope.state = states.playing;
+      };
+
+      $scope.stop = function() {
+        audio.pause();
+        audio.currentTime = 0;
+        $scope.state = states.stopped;
+      };
+
+      $scope.pause = function() {
+        audio.pause();
+        $scope.state = states.paused;
+      };
+
+      audio.addEventListener('ended', function() {
+        $scope.state = states.stopped;
+        $scope.$digest();
+      });
+
+      $scope.$watch('src', function(newSrc, oldSrc) {
+        if (oldSrc && $scope.state !== states.stopped) {
+          $scope.stop();
+        }
+      });
+
+      states = {
+        stopped: {
+          iconClass: 'fa fa-play',
+          next: $scope.play
+        },
+        paused: {
+          iconClass: 'fa fa-play',
+          next: $scope.play
+        },
+        playing: {
+          iconClass: 'fa fa-pause',
+          next: $scope.pause
+        }
+      };
+
+      $scope.state = states.stopped;
+    }
   };
 })
 .controller('MainController', function($scope, $location, SpotifyApi) {
