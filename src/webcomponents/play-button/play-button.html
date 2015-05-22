@@ -1,25 +1,29 @@
-<template>
-  <style>
-  @import url('bower/font-awesome/css/font-awesome.css');
-  @import url('webcomponents/play-button/play-button.css');
+<polymer-element name="play-button" attributes="src">
+  <template>
+    <style>
+    @import url('/bower/font-awesome/css/font-awesome.css');
+    @import url('play-button.css');
 
-  * {
-    box-sizing: border-box;
-  }
+    * {
+      box-sizing: border-box;
+    }
 
-  button {
-    outline: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  </style>
+    button {
+      outline: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    </style>
 
-  <button class="play-button" type="button">
-    <div class="icon-background">
-      <i class="fa fa-play"></i>
-    </div>
-  </button>
-  <audio src=""></audio>
-</template>
-
-<script src="play-button.js"></script>
+    <button id="button"
+            class="play-button"
+            type="button"
+            on-click="{{ onClick }}">
+      <div class="icon-background">
+        <i class="{{ _iconClass }}"></i>
+      </div>
+    </button>
+    <audio id="audio" src=""></audio>
+  </template>
+  <script src="play-button.js"></script>
+</polymer-element>
