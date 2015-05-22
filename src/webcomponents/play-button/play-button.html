@@ -1,4 +1,19 @@
 <template>
+  <style>
+  @import url('bower/font-awesome/css/font-awesome.css');
+  @import url('webcomponents/play-button/play-button.css');
+
+  * {
+    box-sizing: border-box;
+  }
+
+  button {
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  </style>
+
   <button class="play-button" type="button">
     <div class="icon-background">
       <i class="fa fa-play"></i>
@@ -7,5 +22,4 @@
   <audio src=""></audio>
 </template>
 
-<link rel="stylesheet" href="play-button.css">
 <script src="play-button.js"></script>
