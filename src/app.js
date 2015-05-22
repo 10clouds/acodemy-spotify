@@ -40,7 +40,12 @@ angular.module('app', [])
   var players = [];
 
   var document = $document[0];
-  var template = document.getElementById('playButtonTemplate');
+
+  var link = document.querySelector(
+    'link[href="webcomponents/play-button/play-button.html"]'
+  );
+
+  var template = link.import.querySelector('template');
 
   return {
     restrict: 'E',

@@ -19,18 +19,11 @@
 
   <link rel="import" href="bower/polymer/polymer.html">
 
+  <link rel="import" href="webcomponents/play-button/play-button.html">
+
   <!-- endinject -->
 </head>
 <body ng-app="app" ng-controller="MainController">
-
-  <template id="playButtonTemplate">
-    <button class="play-button" ng-click="state.next()">
-      <div class="icon-background">
-        <i class="{{ state.iconClass }}"></i>
-      </div>
-    </button>
-    <audio src=""></audio>
-  </template>
 
   <nav class="app-navbar initialized"
        ng-class="{minimized: search}">
