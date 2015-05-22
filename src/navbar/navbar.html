@@ -1,0 +1,20 @@
+<nav class="app-navbar initialized"
+     ng-class="{minimized: search}"
+     ng-controller="NavbarController">
+  <div class="app-logo">
+    <a href="">
+      <i class="fa fa-spotify"></i> Spotify browser
+    </a>
+
+    <span ng-show="search">
+      : {{ search }}
+    </span>
+  </div>
+
+  <div class="app-search">
+    <clearable-input placeholder="search..."
+                     ng-model="search"
+                     ng-model-options="{debounce: 250}">
+    </clearable-input>
+  </div>
+</nav>
