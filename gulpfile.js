@@ -12,6 +12,7 @@ var rimraf = require('rimraf');
 var templateCache = require('gulp-angular-templatecache');
 var uglify = require('gulp-uglify');
 var watch = require('gulp-watch');
+var plumber = require('gulp-plumber');
 
 gulp.task('connect', function() {
   connect.server({
@@ -41,6 +42,7 @@ gulp.task('watch', function () {
 gulp.task('coffee', function() {
   return gulp
     .src('src/**/*.coffee')
+    .pipe(plumber())
     .pipe(coffee({bare: true}).on('error', gutil.log))
     .pipe(gulp.dest('./src/tmp/coffee/'));
 });
