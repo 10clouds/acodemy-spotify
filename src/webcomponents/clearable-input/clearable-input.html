@@ -1,0 +1,36 @@
+<link rel="import" href="/bower/polymer/polymer.html">
+
+<dom-module id="clearable-input">
+  <link rel="import" type="css" href="/bower/font-awesome/css/font-awesome.css">
+  <template>
+    <style>
+
+      :host * {
+        box-sizing: border-box;
+      }
+
+      :host input, :host button {
+        outline: none;
+        font-size: 16px;
+      }
+
+      :host button {
+        display: none;
+        cursor: pointer;
+      }
+
+      :host button.visible {
+        display: block;
+      }
+    </style>
+
+    <input type="text"
+           placeholder="{{ placeholder }}"
+           value="{{ value::input }}">
+    <button on-click="clear"
+            class$="{{ _clearBtnClass }}">
+      <i class="fa fa-times"></i>
+    </button>
+  </template>
+  <script src="clearable-input.js"></script>
+</dom-module>

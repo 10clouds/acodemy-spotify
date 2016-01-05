@@ -237,33 +237,3 @@ a.thumb-l:hover, a.thumb-l:focus {
   margin: 0 -265px;
 }
 
-.app-search input {
-  width: 250px;
-  height: 40px;
-  border-radius: 20px;
-  border-style: none;
-  background: #fff;
-  padding: 0 20px;
-}
-
-.app-search input:focus {
-  box-shadow: 0 0 0 4px #84bd00;
-}
-
-.app-search button.input-clear {
-  position: absolute;
-  right: 6px;
-  top: 6px;
-  width: 28px;
-  height: 28px;
-  border-radius: 14px;
-  border-style: none;
-  background: #999;
-  color: #fff;
-  font-size: 20px;
-}
-
-.app-search button.input-clear:hover {
-  background: #84bd00;
-}
-
