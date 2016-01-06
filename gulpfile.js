@@ -1,24 +1,25 @@
+var babel = require('gulp-babel');
 var bowerFiles = require('main-bower-files');
 var coffee = require('gulp-coffee');
 var concat = require('gulp-concat');
 var connect = require('gulp-connect');
+var del = require('del');
 var es = require('event-stream');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var inject = require('gulp-inject');
 var minifyCSS = require('gulp-minify-css');
 var ngAnnotate = require('gulp-ng-annotate');
-var rimraf = require('rimraf');
+var plumber = require('gulp-plumber');
 var templateCache = require('gulp-angular-templatecache');
 var uglify = require('gulp-uglify');
 var watch = require('gulp-watch');
-var plumber = require('gulp-plumber');
 
 gulp.task('connect', function() {
   connect.server({
     port: 8888,
     livereload: true,
-    root: 'src'
+    root: ['src/tmp', 'src']
   });
 });
 
@@ -28,10 +29,14 @@ gulp.task('files', function () {
     .pipe(connect.reload());
 });
 
-gulp.task('watch', function () {
+gulp.task('watch', ['coffee', 'babel'], function () {
 
   watch('src/**/*.coffee', function(){
     gulp.start('coffee');
+  });
+
+  watch(['src/**/*.js', '!src/tmp/**/*'], function(){
+    gulp.start('babel');
   });
 
   return watch('src/**', function(){
@@ -41,16 +46,22 @@ gulp.task('watch', function () {
 
 gulp.task('coffee', function() {
   return gulp
-    .src('src/**/*.coffee')
+    .src(['src/**/*.coffee', '!src/bower/**/*'])
     .pipe(plumber())
     .pipe(coffee({bare: true}).on('error', gutil.log))
-    .pipe(gulp.dest('./src/tmp/coffee/'));
+    .pipe(gulp.dest('./src/tmp'));
 });
 
+gulp.task('babel', function() {
+  return gulp
+    .src(['src/**/*.js', '!src/tmp/**/*', '!src/bower/**/*'])
+    .pipe(plumber())
+    .pipe(babel({presets: ['es2015']}))
+    .pipe(gulp.dest('./src/tmp'));
+})
+
 gulp.task('clearDist', function() {
-  return rimraf.sync('./dist', function (err) {
-    if (err) { throw err; }
-  });
+  return del('./dist');
 });
 
 gulp.task('mergeImports', function() {
@@ -74,16 +85,21 @@ gulp.task('mergeImports', function() {
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js/'))
   return gulp
-    .src(['./src/**/*.html', '!./src/index.html', '!./src/bower/**'])
+    .src([
+      './src/**/*.html',
+      '!./src/bower/**',
+      '!./src/**/index.html',
+      '!./src/webcomponents/**/*',
+    ])
     .pipe(templateCache({
       module: 'acodemy-app'
     }))
     .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('scripts', ['mergeImports'], function() {
+gulp.task('scripts', ['mergeImports', 'coffee', 'babel'], function() {
   return gulp
-    .src(['./src/**/*.js', '!./src/bower/**', './dist/templates.js'])
+    .src(['./src/tmp/**/*.js', '!./src/bower/**', './dist/templates.js'])
     .pipe(concat('scripts.js'))
     .pipe(ngAnnotate())
     .pipe(uglify())
@@ -119,12 +135,10 @@ gulp.task('mergeCompiled', ['copyFonts', 'scripts'], function() {
 });
 
 gulp.task('clearTemplatesJS', ['mergeCompiled'], function() {
-  return rimraf('./dist/templates.js', function (err) {
-    if (err) { throw err; }
-  });
+  return del('./dist/templates.js');
 });
 
 
-
-gulp.task('default', ['connect', 'watch']);
-gulp.task('build', ['clearDist', 'clearTemplatesJS']);
+gulp.task('serve', ['connect', 'watch']);
+gulp.task('default', ['serve']);
+gulp.task('build', ['clearTemplatesJS']);
