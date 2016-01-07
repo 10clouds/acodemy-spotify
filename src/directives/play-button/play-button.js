@@ -79,7 +79,10 @@ angular.module('app')
     PlayButton.list = [];
 
     const document = $document[0];
-    const template = document.getElementById('playButtonTemplate');
+    const link = document.querySelector(
+      'link[href="webcomponents/play-button/play-button.html"]'
+    );
+    const template = link.import.querySelector('template');
 
     return {
       restrict: 'E',

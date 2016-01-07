@@ -16,21 +16,14 @@
 
   <!-- webcomponents -->
   <!-- webcomponents:html -->
-
+  <script src="bower/webcomponentsjs/webcomponents.js"></script>
   <link rel="import" href="bower/polymer/polymer.html">
+
+  <link rel="import" href="webcomponents/play-button/play-button.html">
 
   <!-- endinject -->
 </head>
 <body ng-app="app" ng-controller="MainController">
-
-  <template id="playButtonTemplate">
-    <button class="play-button" ng-click="button.state.next()">
-      <div class="icon-background">
-        <i class="{{ button.state.iconClass }}"></i>
-      </div>
-    </button>
-    <audio src=""></audio>
-  </template>
 
   <nav class="app-navbar initialized"
        ng-class="{minimized: search}">
@@ -111,7 +104,6 @@
   <!-- bower:js -->
   <script src="bower/angular/angular.js"></script>
   <script src="bower/angular-route/angular-route.js"></script>
-  <script src="bower/webcomponentsjs/webcomponents.js"></script>
   <!-- endinject -->
 
   <!-- app logic -->
