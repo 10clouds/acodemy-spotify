@@ -1,0 +1,49 @@
+<div ng-controller="SearchRouteController">
+  <section class="tiles-section">
+    <header>
+      <h1>Albums</h1>
+      <h2>{{ searchResults.albums.total }} found</h2>
+    </header>
+    <div class="tiles-container">
+      <a ng-repeat="album in searchResults.albums.items"
+         class="tile thumb-m"
+         ng-style="{'background-image': 'url(' + album.images[0].url + ')'}"
+         title="{{ album.name }}"
+         href="album/index.html">
+      </a>
+    </div>
+  </section>
+
+  <section class="tiles-section">
+    <header>
+      <h1>Artists</h1>
+      <h2>{{ searchResults.artists.total }} found</h2>
+    </header>
+    <div class="tiles-container">
+      <a ng-repeat="artist in searchResults.artists.items"
+         class="tile thumb-m"
+         ng-style="{'background-image': 'url(' + artist.images[0].url + ')'}"
+         title="{{ artist.name }}"
+         href="artist/index.html">
+      </a>
+    </div>
+  </section>
+
+  <section class="table-section">
+    <header>
+      <h1>Tracks</h1>
+      <h2>{{ searchResults.tracks.total }} found</h2>
+    </header>
+    <table class="tracks-table">
+      <tr ng-repeat="track in searchResults.tracks.items">
+        <td>
+          <play-button src="{{ track.preview_url }}"></play-button>
+        </td>
+        <td><a href="album/index.html">{{ track.name }}</a></td>
+        <td><a href="album/index.html">{{ track.album.name }}</a></td>
+        <td><a href="artist/index.html">{{ track.artist.name }}</a></td>
+        <td class="">{{ track.duration_ms | duration }}</td>
+      </tr>
+    </tbody></table>
+  </section>
+</div>
