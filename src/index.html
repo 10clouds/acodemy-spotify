@@ -22,6 +22,16 @@
   <!-- endinject -->
 </head>
 <body ng-app="app" ng-controller="MainController">
+
+  <template id="playButtonTemplate">
+    <button class="play-button" ng-click="button.state.next()">
+      <div class="icon-background">
+        <i class="{{ button.state.iconClass }}"></i>
+      </div>
+    </button>
+    <audio src=""></audio>
+  </template>
+
   <nav class="app-navbar initialized"
        ng-class="{minimized: search}">
     <div class="app-logo">
