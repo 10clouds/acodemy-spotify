@@ -42,17 +42,13 @@
     }
 
     createdCallback() {
-      let button = this.querySelector('button');
-
-      // play-button reused by angular with contents
-      if (!button) {
-        const clone = document.importNode(template.content, true);
-        this.appendChild(clone);
-        button = this.querySelector('button');
-      }
+      const shadow = this.createShadowRoot();
+      const clone = document.importNode(template.content, true);
+      shadow.appendChild(clone);
+      const button = shadow.querySelector('button');
 
       this.icon = button.querySelector('button i');
-      this.audio = this.querySelector('audio');
+      this.audio = shadow.querySelector('audio');
 
       this.state = 'stopped';
 
