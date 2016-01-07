@@ -8,4 +8,14 @@ angular.module('acodemy-app.navbar', [
     'search',
     (search) => $location.search('q', search || null)
   );
+
+  $scope.openSearchRoute = function() {
+    if ($location.path() !== '/search') {
+      $location.path('/search');
+    }
+  };
+
+  $scope.clearSearch = function() {
+    $scope.search = '';
+  };
 });

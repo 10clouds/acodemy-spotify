@@ -1,168 +1,45 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Acodemy spotify</title>
-
-  <!-- dependencies -->
-  <!-- bower:css -->
-  <link rel="stylesheet" href="../bower/normalize.css/normalize.css">
-  <link rel="stylesheet" href="../bower/font-awesome/css/font-awesome.css">
-  <!-- endinject -->
-
-  <!-- app styling -->
-  <!-- inject:css -->
-  <link rel="stylesheet" href="../styles.css">
-  <!-- endinject -->
-
-  <!-- webcomponents -->
-  <!-- webcomponents:html -->
-
-  <!-- Web component imports go here! -->
-
-  <!-- endinject -->
-</head>
-<body>
-  <nav class="app-navbar initialized minimized">
-    <div class="app-logo">
-      <a href="../index.html">
-        <i class="fa fa-spotify"></i> Spotify browser
-      </a>
+<header class="page-header">
+  <aside>
+    <div class="thumb-l"
+         ng-style="{'background-image': 'url(' + album.images[1].url + ')'}">
     </div>
-    <div class="app-search">
-      <input type="text"
-             placeholder="search..." >
-      <button type="button"
-              class="input-clear"
-              tabindex="-1">
-        <i class="fa fa-times"></i>
-      </button>
-    </div>
-  </nav>
 
+    <ul class="thumbs-list">
+      <li ng-repeat="artist in artists">
+        <a href="#/artist/{{ artist.id }}">
+          <div class="thumb-s"
+               ng-style="{'background-image': 'url(' + artist.images[2].url + ')'}">
+          </div>
+          <p>{{ artist.name }}</p>
+        </a>
+      </li>
+    </ul>
+  </aside>
 
-  <header class="page-header">
-    <aside>
-      <div class="thumb-l"></div>
+  <section>
+    <header>
+      <h1>{{ album.name }}</h1>
+      <h2>{{ album.release_date | date:'yyyy' }}</h2>
+    </header>
 
-      <ul class="thumbs-list">
-        <li>
-          <a href="../artist/index.html">
-            <div class="thumb-s"></div>
-            <p>Artist</p>
-          </a>
-        </li>
-      </ul>
-    </aside>
-
-    <section>
-      <header>
-        <h1>Album</h1>
-        <h2>2014</h2>
-      </header>
-
-      <section class="table-section">
-        <header><h1>Tracks</h1></header>
-        <table class="tracks-table">
-          <tr>
-            <td>
-              <button class="play-button">
-                <div class="icon-background">
-                  <i class="fa fa-play"></i>
-                </div>
-              </button>
-            </td>
-            <td><a href="../album/index.html">Track</a></td>
-            <td><a href="../album/index.html">Album</a></td>
-            <td>
-              <a href="../artist/index.html">Artist</a>
-            </td>
-            <td>9:59</td>
-          </tr>
-
-          <tr>
-            <td>
-              <button class="play-button">
-                <div class="icon-background">
-                  <i class="fa fa-play"></i>
-                </div>
-              </button>
-            </td>
-            <td><a href="../album/index.html">Track</a></td>
-            <td><a href="../album/index.html">Album</a></td>
-            <td>
-              <a href="../artist/index.html">Artist</a>
-            </td>
-            <td>9:59</td>
-          </tr>
-
-          <tr>
-            <td>
-              <button class="play-button">
-                <div class="icon-background">
-                  <i class="fa fa-play"></i>
-                </div>
-              </button>
-            </td>
-            <td><a href="../album/index.html">Track</a></td>
-            <td><a href="../album/index.html">Album</a></td>
-            <td>
-              <a href="../artist/index.html">Artist</a>
-            </td>
-            <td>9:59</td>
-          </tr>
-
-          <tr>
-            <td>
-              <button class="play-button">
-                <div class="icon-background">
-                  <i class="fa fa-play"></i>
-                </div>
-              </button>
-            </td>
-            <td><a href="../album/index.html">Track</a></td>
-            <td><a href="../album/index.html">Album</a></td>
-            <td>
-              <a href="../artist/index.html">Artist</a>
-            </td>
-            <td>9:59</td>
-          </tr>
-
-          <tr>
-            <td>
-              <button class="play-button">
-                <div class="icon-background">
-                  <i class="fa fa-play"></i>
-                </div>
-              </button>
-            </td>
-            <td><a href="../album/index.html">Track</a></td>
-            <td><a href="../album/index.html">Album</a></td>
-            <td>
-              <a href="../artist/index.html">Artist</a>
-            </td>
-            <td>9:59</td>
-          </tr>
-        </table>
-      </section>
+    <section class="table-section">
+      <header><h1>Tracks</h1></header>
+      <table class="tracks-table">
+        <tr ng-repeat="track in album.tracks.items">
+          <td>
+            <play-button src="{{ track.preview_url }}"></play-button>
+          </td>
+          <td><a href="#/album/{{ track.album.id }}">{{ track.name }}</a></td>
+          <td><a href="#/album/{{ track.album.id }}">{{ track.album.name }}</a></td>
+          <td>
+            <a ng-repeat="artist in track.artists"
+               href="#/artist/{{ artist.id }}">
+              {{ artist.name }}
+            </a>
+          </td>
+          <td class="">{{ track.duration_ms | duration }}</td>
+        </tr>
+      </table>
     </section>
-  </header>
-
-
-  <!-- dependencies -->
-  <!-- bower:js -->
-  <script src="../bower/angular/angular.js"></script>
-  <script src="../bower/angular-route/angular-route.js"></script>
-  <script src="../bower/webcomponentsjs/webcomponents.js"></script>
-  <!-- endinject -->
-
-  <!-- app logic -->
-  <!-- inject:js -->
-
-  <!-- app scripts go here! -->
-
-  <!-- endinject -->
-</body>
-</html>
-
-
-
+  </section>
+</header>
