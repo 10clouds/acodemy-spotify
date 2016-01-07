@@ -22,7 +22,8 @@
   <!-- endinject -->
 </head>
 <body ng-app="app" ng-controller="MainController">
-  <nav class="app-navbar initialized minimized"
+  <nav class="app-navbar initialized"
+       ng-class="{minimized: search}"
        ng-controller="NavbarController">
     <div class="app-logo">
       <a href="">
