@@ -1,5 +1,7 @@
 angular.module('app', [])
   .controller('MainController', function($scope) {
+    $scope.search = '';
+
     $scope.searchResults = {
       "albums" : {
         "href" : "https://api.spotify.com/v1/search?query=transistor&offset=0&limit=10&type=album",
