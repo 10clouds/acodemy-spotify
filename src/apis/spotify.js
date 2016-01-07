@@ -1,5 +1,9 @@
 angular.module('app')
-  .provider('SpotifyApi', function() {
+  .provider('SpotifyApi', function($sceDelegateProvider) {
+    var whitelist = $sceDelegateProvider.resourceUrlWhitelist();
+    whitelist.push('https://p.scdn.co/mp3-preview/**');
+    $sceDelegateProvider.resourceUrlWhitelist(whitelist);
+
     this.apiUrl = 'https://api.spotify.com/v1';
     this.defaults = {
       params: {
@@ -22,4 +26,4 @@ angular.module('app')
         }
       };
     };
-  })
+  });
