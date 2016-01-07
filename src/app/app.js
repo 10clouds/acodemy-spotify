@@ -1,5 +1,5 @@
 angular.module('app', [])
-  .controller('MainController', function($scope, $http, $location) {
+  .controller('MainController', function($scope, $location, SpotifyApi) {
     $scope.search = $location.search().q || '';
 
     $scope.searchResults = {};
@@ -12,13 +12,8 @@ angular.module('app', [])
         return;
       }
 
-      $http.get('https://api.spotify.com/v1/search', {
-          params: {
-            q: search,
-            type: 'album,artist,track',
-            limit: 10
-          }
-        })
+      SpotifyApi
+        .search(search, ['album', 'artist', 'track'])
         .then((response) => $scope.searchResults = response.data);
     });
 
